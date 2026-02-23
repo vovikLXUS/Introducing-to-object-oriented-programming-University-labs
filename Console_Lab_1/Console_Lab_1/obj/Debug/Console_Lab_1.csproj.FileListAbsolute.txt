@@ -1,0 +1,7 @@
+E:\repos_c#\Console_Lab_1\Console_Lab_1\bin\Debug\Console_Lab_1.exe.config
+E:\repos_c#\Console_Lab_1\Console_Lab_1\bin\Debug\Console_Lab_1.exe
+E:\repos_c#\Console_Lab_1\Console_Lab_1\bin\Debug\Console_Lab_1.pdb
+E:\repos_c#\Console_Lab_1\Console_Lab_1\obj\Debug\Console_Lab_1.csproj.AssemblyReference.cache
+E:\repos_c#\Console_Lab_1\Console_Lab_1\obj\Debug\Console_Lab_1.csproj.CoreCompileInputs.cache
+E:\repos_c#\Console_Lab_1\Console_Lab_1\obj\Debug\Console_Lab_1.exe
+E:\repos_c#\Console_Lab_1\Console_Lab_1\obj\Debug\Console_Lab_1.pdb

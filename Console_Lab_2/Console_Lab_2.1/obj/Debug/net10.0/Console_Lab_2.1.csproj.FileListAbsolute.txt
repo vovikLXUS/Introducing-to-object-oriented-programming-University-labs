@@ -1,0 +1,14 @@
+E:\repos_c#\Console_Lab_2.1\Console_Lab_2.1\bin\Debug\net10.0\Console_Lab_2.1.exe
+E:\repos_c#\Console_Lab_2.1\Console_Lab_2.1\bin\Debug\net10.0\Console_Lab_2.1.deps.json
+E:\repos_c#\Console_Lab_2.1\Console_Lab_2.1\bin\Debug\net10.0\Console_Lab_2.1.runtimeconfig.json
+E:\repos_c#\Console_Lab_2.1\Console_Lab_2.1\bin\Debug\net10.0\Console_Lab_2.1.dll
+E:\repos_c#\Console_Lab_2.1\Console_Lab_2.1\bin\Debug\net10.0\Console_Lab_2.1.pdb
+E:\repos_c#\Console_Lab_2.1\Console_Lab_2.1\obj\Debug\net10.0\Console_Lab_2.1.GeneratedMSBuildEditorConfig.editorconfig
+E:\repos_c#\Console_Lab_2.1\Console_Lab_2.1\obj\Debug\net10.0\Console_Lab_2.1.AssemblyInfoInputs.cache
+E:\repos_c#\Console_Lab_2.1\Console_Lab_2.1\obj\Debug\net10.0\Console_Lab_2.1.AssemblyInfo.cs
+E:\repos_c#\Console_Lab_2.1\Console_Lab_2.1\obj\Debug\net10.0\Console_Lab_2.1.csproj.CoreCompileInputs.cache
+E:\repos_c#\Console_Lab_2.1\Console_Lab_2.1\obj\Debug\net10.0\Console_Lab_2.1.dll
+E:\repos_c#\Console_Lab_2.1\Console_Lab_2.1\obj\Debug\net10.0\refint\Console_Lab_2.1.dll
+E:\repos_c#\Console_Lab_2.1\Console_Lab_2.1\obj\Debug\net10.0\Console_Lab_2.1.pdb
+E:\repos_c#\Console_Lab_2.1\Console_Lab_2.1\obj\Debug\net10.0\Console_Lab_2.1.genruntimeconfig.cache
+E:\repos_c#\Console_Lab_2.1\Console_Lab_2.1\obj\Debug\net10.0\ref\Console_Lab_2.1.dll
