@@ -1,0 +1,35 @@
+
++======== ATM Info =========+
+|Bank name: Monobank
+|ID number: 6379
+|Placement: Sheptytskoho
+|Cash amount: 25 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: MONO Bank
+|ID number: 6329
+|Placement: Sheptytskogo
+|Cash amount: 25 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: MONOBank
+|ID number: 1234
+|Placement: Shevchenka
+|Cash amount: 67 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: MonoBank
+|ID number: 4321
+|Placement: Vasylkivska
+|Cash amount: 12 345,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: OshchadBank
+|ID number: 1232
+|Placement: ukrainska
+|Cash amount: 90 000,00 ₴
++===========================+

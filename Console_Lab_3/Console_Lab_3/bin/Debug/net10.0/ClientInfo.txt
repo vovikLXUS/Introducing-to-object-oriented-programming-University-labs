@@ -1,0 +1,60 @@
+=== Client Info ===
+First name: Volodya
+Last name: Datsyshyn
+PIN code: 6769
+Card number: 4441111150534166
+Validity period: 11/2028
+=== Client Info ===
+First name: volodymyr
+Last name: datsyshyn
+Card number: 4441111150534166
+PIN code: 1234
+Validity period: 1/2222
+
++======== Client Info =========+
+|First name: kolbo
+|Last name: valerich
+|Card number: 5168111119213421
+|PIN code: 1234
+|Validity period: 11/2067
++==============================+
+
++======== Client Info =========+
+|First name: Volodymyr
+|Last name: Datsyshyn
+|Card number: 5168123412341234
+|PIN code: 1234
+|Validity period: 1/2029
++==============================+
+
++======== Client Info =========+
+|First name: Volodymyr
+|Last name: Datsyshyn
+|Card number: 4441111112341234
+|PIN code: 4321
+|Validity period: 1/2031
++==============================+
+
++======== Client Info =========+
+|First name: Korniy
+|Last name: TheBest
+|Card number: 1234123443214321
+|PIN code: 1234
+|Validity period: 1/2027
++==============================+
+
++======== Client Info =========+
+|First name: Illya
+|Last name: Vabyshchevych
+|Card number: 1234567812345678
+|PIN code: 1000
+|Validity period: 1/2031
++==============================+
+
++======== Client Info =========+
+|First name: Yaroslav
+|Last name: Obozov
+|Card number: 4441111100000007
+|PIN code: 2142
+|Validity period: 11/2028
++==============================+
