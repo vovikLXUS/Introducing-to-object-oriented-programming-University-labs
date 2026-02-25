@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\repos_c#\\Console_Lab_3\\",
+  "WorkspaceRootPath": "E:\\ItOOP_Labs\\Console_Lab_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|e:\\repos_c#\\console_lab_3\\console_lab_3\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|solutionrelative:console_lab_3\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|e:\\repos_c#\\console_lab_3\\console_lab_3\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|e:\\itoop_labs\\console_lab_3\\console_lab_3\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|solutionrelative:console_lab_3\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|e:\\repos_c#\\console_lab_3\\console_lab_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|e:\\itoop_labs\\console_lab_3\\console_lab_3\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|solutionrelative:console_lab_3\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|e:\\itoop_labs\\console_lab_3\\console_lab_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|solutionrelative:console_lab_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -31,38 +31,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Client.cs",
-              "DocumentMoniker": "E:\\repos_c#\\Console_Lab_3\\Console_Lab_3\\Client.cs",
-              "RelativeDocumentMoniker": "Console_Lab_3\\Client.cs",
-              "ToolTip": "E:\\repos_c#\\Console_Lab_3\\Console_Lab_3\\Client.cs",
-              "RelativeToolTip": "Console_Lab_3\\Client.cs",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAuwMwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T17:24:08.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ATM.cs",
-              "DocumentMoniker": "E:\\repos_c#\\Console_Lab_3\\Console_Lab_3\\ATM.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\ATM.cs",
               "RelativeDocumentMoniker": "Console_Lab_3\\ATM.cs",
-              "ToolTip": "E:\\repos_c#\\Console_Lab_3\\Console_Lab_3\\ATM.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\ATM.cs",
               "RelativeToolTip": "Console_Lab_3\\ATM.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAAAuwK0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUCAAAAAAAAAAAtwP4BAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T17:24:23.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Client.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\Client.cs",
+              "RelativeDocumentMoniker": "Console_Lab_3\\Client.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\Client.cs",
+              "RelativeToolTip": "Console_Lab_3\\Client.cs",
+              "ViewState": "AgIAAO8AAAAAAAAAAAArwNQAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T17:24:08.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\repos_c#\\Console_Lab_3\\Console_Lab_3\\Program.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\Program.cs",
               "RelativeDocumentMoniker": "Console_Lab_3\\Program.cs",
-              "ToolTip": "E:\\repos_c#\\Console_Lab_3\\Console_Lab_3\\Program.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\Program.cs",
               "RelativeToolTip": "Console_Lab_3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T17:21:52.265Z",
               "EditorCaption": ""

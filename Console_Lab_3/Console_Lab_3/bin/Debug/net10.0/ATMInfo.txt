@@ -33,3 +33,87 @@
 |Placement: ukrainska
 |Cash amount: 90 000,00 ₴
 +===========================+
+
++======== ATM Info =========+
+|Bank name: PUMB
+|ID number: 3221
+|Placement: Bandery street
+|Cash amount: 250 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: Privat Bank
+|ID number: 5005
+|Placement: Sheptytskoho
+|Cash amount: 555 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: Mono Bank
+|ID number: 6769
+|Placement: ???????
+|Cash amount: 300 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: MONO Bank
+|ID number: 1234
+|Placement: Bandery street
+|Cash amount: 250 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: MONO Bank
+|ID number: 1234
+|Placement: Mezhygirska
+|Cash amount: 200 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: Privat Bank
+|ID number: 6379
+|Placement: Vasylkivska
+|Cash amount: 200 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: MONO Bank
+|ID number: 0670
+|Placement: Vaflya street
+|Cash amount: 300 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: MONObank
+|ID number: 0067
+|Placement: Vernadskoho street
+|Cash amount: 100 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: Privat Bank
+|ID number: 0123
+|Placement: Tutanhamona
+|Cash amount: 100 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: Privat bank
+|ID number: 0123
+|Placement: Varenik street
+|Cash amount: 50 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: OshchadBank
+|ID number: 1234
+|Placement: Lucashova
+|Cash amount: 15 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: MONOBank
+|ID number: 5678
+|Placement: Vovny
+|Cash amount: 10 000,00 ₴
++===========================+
