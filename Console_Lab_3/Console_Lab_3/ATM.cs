@@ -6,10 +6,11 @@ namespace Console_Lab_3
 {
     public partial class ATM
     {
-        private string atmBankName;
-        private string ID;
-        private string placement;
-        private int cashAmount;
+        private string atmBankName; // Назва банку, до якого належить банкомат
+        private string ID; // Унікальний ідентифікатор банкомату (4 цифри)
+        private string placement; // Розташування банкомату
+        private int cashAmount; // Кількість готівки в банкоматі
+        // Властивості для доступу до полів
         public string ATMBankName
         {
             get
@@ -54,6 +55,7 @@ namespace Console_Lab_3
                 cashAmount = value;
             }
         }
+        // Конструктор за замовчуванням
         public ATM()
         {
             atmBankName = "";
@@ -61,6 +63,7 @@ namespace Console_Lab_3
             placement = "";
             cashAmount = 0;
         }
+        // Конструктор з параметрами для заповнення полів класу значеннями
         public ATM(string atmBankName, string ID, string placement, int cashAmount)
         {
             this.atmBankName = atmBankName;
@@ -68,12 +71,14 @@ namespace Console_Lab_3
             this.placement = placement;
             this.cashAmount = cashAmount;
         }
+        // Вкладений клас Bank для роботи з банком
         public class Bank
         {
-            private string bankName;
-            private string bankAddress;
-            private string clientBankID;
-            private int clientBankCashAmount;
+            private string bankName; // Назва банку
+            private string bankAddress; // Адреса банку
+            private string clientBankID; // Ідентифікаційний номер клієнта в банку (10 цифр)
+            private int clientBankCashAmount; // Кількість грошей на рахунку клієнта в банку
+            // Властивості для доступу до полів
             public string BankName
             {
                 get
@@ -118,6 +123,7 @@ namespace Console_Lab_3
                     clientBankCashAmount = value;
                 }
             }
+            // Конструктори без та з параметрами для заповнення полів класу
             public Bank()
             {
                 bankName = "";
@@ -132,14 +138,15 @@ namespace Console_Lab_3
                 this.clientBankID = clientID;
                 this.clientBankCashAmount = clientCashAmount;
             }
+            // Методи виведення заповненої таблиці на консоль та виведення цієї ж інформації у файл
             public void PrintClientInBankInfo()
             {
-                Console.Write("\n+=========== Bank Info ===========+\n"
+                Console.Write("\n+=== Info about a client in bank ===+\n"
                     + $"|Bank name: {bankName}\n"
                     + $"|Bank address: {bankAddress}\n"
                     + $"|Client ID: {clientBankID}\n"
                     + $"|Client cash amount: {clientBankCashAmount:C}\n"
-                    + "+=================================+\n");
+                    + "+===================================+\n");
             }
             public void OutputClientInBankInfoToFile()
             {
@@ -147,49 +154,57 @@ namespace Console_Lab_3
 
                 using (StreamWriter sw = new StreamWriter(filePath, true))
                 {
-                    sw.Write($"\n+=========== Bank Info ===========+\n"
+                    sw.Write($"\n+=== Info about a client in bank ===+\n"
                         + $"|Bank name: {bankName}\n"
                         + $"|Bank address: {bankAddress}\n"
                         + $"|Client ID: {clientBankID}\n"
                         + $"|Client cash amount: {clientBankCashAmount:C}\n"
-                        + "+=================================+\n");
+                        + "+===================================+\n");
                 }
             }
+            // Метод для ініціалізації клієнта в банку, який заповнює поля класу
             public void InitializeClientInBank()
             {
-                Console.Write("\n+--- Initialize client in Bank ---+\n"
+                Console.Write("\n+---- Initialize client in Bank ----+\n"
                     + "Enter name of the bank: ");
                 bankName = Console.ReadLine();
 
                 Console.Write("Enter address of the bank: ");
                 bankAddress = Console.ReadLine();
 
-                Console.Write("Enter your ID (8 digits): ");
+                Console.Write("Enter your ID (10 digits): ");
                 clientBankID = Console.ReadLine();
 
-                while (clientBankID.Length < 8 || clientBankID.Length > 8 || !long.TryParse(clientBankID, out _))
+                while (clientBankID.Length < 10 || clientBankID.Length > 10 || !long.TryParse(clientBankID, out _))
                 {
-                    Console.Write("\nYour ID must be 8 digits long!"
+                    Console.Write("\nYour ID must be 10 digits long!"
                         + "\nEnter your ID correctly: ");
                     clientBankID = Console.ReadLine();
                 }
 
                 clientBankCashAmount = GetInt("Enter your bank's cash amount: ");
+
                 while (clientBankCashAmount < 0)
                 {
                     Console.Write("Your bank's cash amount must be greater than 0.");
 
                     clientBankCashAmount = GetInt("Enter your bank's cash amount correctly: ");
                 }
-                Console.Write("+-----------------------------------+\n");
+                Console.Write("+-------------------------------------+\n");
 
                 PrintClientInBankInfo();
 
                 OutputClientInBankInfoToFile();
             }
+            /// <summary>
+            /// Метод для депозиту грошей на рахунок клієнта, 
+            /// який запитує суму для депозиту та перевіряє чи вона більша за 0.
+            /// </summary>
+            /// <param name="client">посилання на об'єкт клієнта</param>
             public void BankDeposit(Client client)
             {
                 int amount = GetInt("Enter the amount to deposit (in UAH): ");
+
                 while (amount < 0)
                 {
                     Console.Write("Your deposit must be greater than 0.\n");
@@ -202,6 +217,12 @@ namespace Console_Lab_3
 
                 Console.Write($"\nYour account deposited by {amount:C}.\n");
             }
+            /// <summary>
+            /// Метод для зняття готівки, який запитує суму для зняття та 
+            /// перевіряє чи достатньо грошей на рахунку клієнта та в банкоматі.
+            /// </summary>
+            /// <param name="client">посилання на об'єкт клієнта</param>
+            /// <returns>успіх/невдачу</returns>
             public bool BankWithdrawal(Client client)
             {
                 int amount = GetInt("Enter the amount of cash withdrawal: ");
@@ -226,13 +247,18 @@ namespace Console_Lab_3
             }
             public void CheckBankBalance()
             {
-                Console.Write("\n+-------------- Balance --------------+"
+                Console.Write("\n+----------------- Balance -----------------+"
                     + $"\n|There are {clientBankCashAmount:C} on your account."
-                    + "\n+-------------------------------------+\n");
+                    + "\n+-------------------------------------------+\n");
             }
+            /// <summary>
+            /// Метод для переведення грошей іншому клієнту, 
+            /// який запитує інформацію про отримувача та суму для переведення.
+            /// </summary>
+            /// <returns>успіх/невдачу</returns>
             public bool BankTransfer()
             {
-                Console.Write("+---------------- Receiver ----------------+\n"
+                Console.Write("\n+---------------- Receiver ----------------+\n"
                     + "|Enter name of the bank: ");
                 string newBankName = Console.ReadLine();
 
@@ -245,12 +271,12 @@ namespace Console_Lab_3
                 Console.Write("|Enter the receiver's surname: ");
                 string newClientSurname = Console.ReadLine();
 
-                Console.Write("|Enter ID (8 digits): ");
+                Console.Write("|Enter ID (10 digits): ");
                 string newClientBankID = Console.ReadLine();
 
-                while (newClientBankID.Length > 8 || !long.TryParse(newClientBankID, out _))
+                while (newClientBankID.Length < 10 || newClientBankID.Length > 10 || !long.TryParse(newClientBankID, out _))
                 {
-                    Console.Write("\nID must to be 8 digits long!"
+                    Console.Write("\nID must to be 10 digits long!"
                         + "\nEnter ID correctly: ");
 
                     newClientBankID = Console.ReadLine();
@@ -277,17 +303,21 @@ namespace Console_Lab_3
                 clientBankCashAmount -= amount;
                 newClient.clientBankCashAmount += amount;
 
-                Console.Write("\n+-----------------------+"
+                Console.Write("\n+-----------------------------+"
                     + $"\n|Receiver: {newBankName}\n"
                     + $"|\t   {newBankAddress}\n"
                     + $"|\t   {newClientName}\n"
                     + $"|\t   {newClientSurname}\n"
                     + $"|\t   {newClientBankID}\n"
-                    + "+-----------------------+"
+                    + "+-----------------------------+"
                     + $"\nThe transfer of {amount:C} successful.\n");
 
                 return true;
             }
+            /// <summary>
+            /// Метод для оплати комунальних послуг, який виводить суму до сплати та баланс клієнта,
+            /// </summary>
+            /// <returns>успіх/невдачу</returns>
             public bool BankPayUtility()
             {
                 int utilitiesCost = 3500;
@@ -372,6 +402,7 @@ namespace Console_Lab_3
                 }
             } while (choice != 0);
         }
+        // Методи для отримання коректного вводу від користувача
         static int GetInt(string request)
         {
             int result;
@@ -421,6 +452,9 @@ namespace Console_Lab_3
                     + "+===========================+\n");
             }
         }
+        /// <summary>
+        /// Метод для ініціалізації банкомату, який заповнює поля класу значеннями
+        /// </summary>
         public void InitializeATM()
         {
             Console.Write("\n+------------------ Initialize ATM ------------------+\n"
@@ -453,34 +487,10 @@ namespace Console_Lab_3
 
             OutPutATMInfoToFile();
         }
-        //public void EnterPIN(Client client)
-        //{
-        //    Console.Write("\nEnter your PIN code: ");
-        //    string enteredPIN = Console.ReadLine();
-
-        //    bool isBlocked = false;
-
-        //    int attempts = 3;
-
-        //    if (enteredPIN != client.PINCode)
-        //    {
-        //        while (attempts > 0)
-        //        {
-        //            Console.WriteLine("Error: Incorrect PIN code."
-        //                + "Enter your PIN code: ");
-        //            enteredPIN = Console.ReadLine();
-
-        //            if (enteredPIN == client.PINCode)
-        //            {
-        //                Console.WriteLine("PIN code accepted.");
-        //                return;
-        //            }
-        //            attempts--;
-        //        }
-        //        Console.WriteLine("Error: Too many failed attempts.");
-        //        isBlocked = true;
-        //    }
-        //}
+        /// <summary>
+        /// Метод для блокування картки клієнта після 3 невдалих спроб введення PIN-коду
+        /// </summary>
+        /// <param name="client">посилання на об'єкт клієнта</param>
         public void EnterPIN(Client client)
         {
             string enteredPIN = "";
@@ -494,18 +504,25 @@ namespace Console_Lab_3
 
                 if (enteredPIN == client.PINCode)
                 {
-                    Console.WriteLine("|PIN code accepted.");
+                    Console.WriteLine("|*PIN code accepted.");
                     return;
                 }
-
                 attempts--;
+               
                 Console.WriteLine($"Error: Incorrect PIN code. Attempts left: {attempts}."
                     + "\nEnter your PIN code: ");
             }
 
-            Console.WriteLine("Error: Too many failed attempts.");
+            Console.WriteLine("***Error: Too many failed attempts.");
             BlockCard(client);
         }
+        /// <summary>
+        /// Метод для аутентифікації клієнта, який перевіряє чи не заблокована картка, 
+        /// чи правильний номер картки та викликає метод для введення PIN-коду. 
+        /// Якщо картка заблокована або номер картки неправильний, то аутентифікація не проходить.
+        /// </summary>
+        /// <param name="client">посилання на об'єкт клієнта</param>
+        /// <returns>успіх/невдачу</returns>
         public bool Authenticate(Client client)
         {
             if (client.IsBlocked)
@@ -516,22 +533,24 @@ namespace Console_Lab_3
 
             Console.Write("\n+------------------- Authentication ------------------+\n");
             long enteredCardNumber = GetLong("|Enter your card number (16 digits): ");
+
             if (enteredCardNumber != client.CardNumber)
             {
-                Console.WriteLine("|Error: Incorrect card number.");
+                Console.WriteLine("|***Error: Incorrect card number.");
                 return false;
             }
-            Console.Write("|Card number accepted.\n");
+            Console.Write("|*Card number accepted.\n");
 
             EnterPIN(client);
 
             if (client.IsBlocked)
             {
-                Console.Write("\n|Your card is blocked.\n");
-                Console.Write("+---------------------------------------------------+\n");
+                Console.Write("\n|***Your card is blocked.\n");
+                Console.Write("+-----------------------------------------------------+\n");
                 return false;
             }
-            Console.Write("+---------------------------------------------------+\n");
+
+            Console.Write("+-----------------------------------------------------+\n");
             return true;
         }
         public void ShowInitializationMenu(ATM atm, Client client)
@@ -565,7 +584,7 @@ namespace Console_Lab_3
                 }
             } while (choice != 0);
         }
-        public void ShowATMOptions(Client client, ATM atm)
+        public void ShowATMOptions(Client client)
         {
             if (!Authenticate(client))
             { 
@@ -590,7 +609,7 @@ namespace Console_Lab_3
                 switch (request)
                 {
                     case 1:
-                        client.CheckBalance(atm, client);
+                        client.CheckBalance(this);
                         break;
                     case 2:
                         client.CashWithdrawal(this);

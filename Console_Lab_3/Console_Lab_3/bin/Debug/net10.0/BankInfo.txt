@@ -1,11 +1,3 @@
-
-+======== Bank Info ========+
-|Bank name: Vasya
-|Bank address: Bandery 32A
-|Client ID: 12344412
-|Client cash amount: 20 000,00 ₴
-+===========================+
-
 +=========== Bank Info ===========+
 |Bank name: Volodymyr
 |Bank address: Mezhyhirska, Kyiv
@@ -42,13 +34,6 @@
 +=================================+
 
 +=========== Bank Info ===========+
-|Bank name: 0
-|Bank address: 0
-|Client ID: 0
-|Client cash amount: 0,00 ₴
-+=================================+
-
-+=========== Bank Info ===========+
 |Bank name: Anastasia
 |Bank address: Hurovska
 |Client ID: 12345678
@@ -82,3 +67,10 @@
 |Client ID: 12345678
 |Client cash amount: 1 100 000,00 ₴
 +=================================+
+
++============ Bank Info ============+
+|Bank name: Privat Bank
+|Bank address: Heroiv UPA
+|Client ID: 0123456789
+|Client cash amount: 1 505 505,00 ₴
++===================================+

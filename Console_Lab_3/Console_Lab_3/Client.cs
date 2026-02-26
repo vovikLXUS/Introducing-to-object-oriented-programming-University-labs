@@ -6,65 +6,66 @@ namespace Console_Lab_3
 {
     public class Client
     {
-        private string firstName;
-        private string lastName;
-        private string pinCode;
-        private long cardNumber;
-        private int[] validityPeriod;
-        private int balance;
+        private string firstName; // Ім'я клієнта
+        private string lastName; // Прізвище клієнта
+        private string pinCode; // PIN-код клієнта
+        private long cardNumber; // Номер банківської картки клієнта
+        private int[] validityPeriod; // Термін дії картки клієнта (місяць та рік)
+        private int balance; // Баланс клієнта на картці
+        // Властивості для доступу до полів класу
         public string FirstName
         {
             get
             {
                 return firstName;
             }
-            set 
+            set
             {
-                firstName = value; 
+                firstName = value;
             }
         }
         public string LastName
         {
             get
-            { 
-                return lastName; 
+            {
+                return lastName;
             }
             set
-            { 
-                lastName = value; 
+            {
+                lastName = value;
             }
         }
         public string PINCode
         {
             get
             {
-                return pinCode; 
+                return pinCode;
             }
-            set 
+            set
             {
                 pinCode = value;
             }
         }
         public long CardNumber
         {
-            get 
+            get
             {
-                return cardNumber; 
+                return cardNumber;
             }
-            set 
+            set
             {
-                cardNumber = value; 
+                cardNumber = value;
             }
         }
         public int[] ValidityPeriod
         {
-            get 
-            { 
-                return validityPeriod; 
-            }
-            set 
+            get
             {
-                validityPeriod = value; 
+                return validityPeriod;
+            }
+            set
+            {
+                validityPeriod = value;
             }
         }
         public int Balance
@@ -78,7 +79,8 @@ namespace Console_Lab_3
                 balance = value;
             }
         }
-        public bool IsBlocked { get; set; } = false;
+        public bool IsBlocked { get; set; } = false; // Властивість для блокування картки
+        // Конструктор класу без параметрів, який ініціалізує поля значеннями за замовчуванням
         public Client()
         {
             firstName = "";
@@ -88,6 +90,7 @@ namespace Console_Lab_3
             validityPeriod = new int[2];
             balance = 0;
         }
+        // Конструктор класу з параметрами для ініціалізації полів значеннями, переданими при створенні об'єкта
         public Client(string firstName, string lastName, string pinCode, long cardNumber, int[] validityPeriod)
         {
             this.firstName = firstName;
@@ -96,6 +99,8 @@ namespace Console_Lab_3
             this.cardNumber = cardNumber;
             this.validityPeriod = validityPeriod;
         }
+        // Методи для отримання числа від користувача з обробкою помилок введення 
+        // для скорочення довжини коду
         public int GetInt(string request)
         {
             int result;
@@ -120,6 +125,7 @@ namespace Console_Lab_3
             }
             return result;
         }
+        // Виведення заповненої таблиці на консоль та в текстовий файл
         public void PrintClientInfo()
         {
             Console.Write("\n+======== Client Info =========+\n"
@@ -145,6 +151,7 @@ namespace Console_Lab_3
                     + "+==============================+\n");
             }
         }
+        // Методи для ініціалізації клієнта, зміни PIN-коду, перевірки балансу, зняття готівки та поповнення рахунку
         public void InitializeClient()
         {
             Console.Write("\n+------------------------- Initialize client -------------------------+\n"
@@ -156,9 +163,9 @@ namespace Console_Lab_3
 
             cardNumber = GetLong("Enter your card number (16 digits, without 'SPACE'): ");
 
-            // TODO: додати перевірку щоб приймало PIN код, який починається з 0, наприклад 0123
             Console.Write("Enter your PIN code (4 digits): ");
             pinCode = Console.ReadLine();
+
             if (pinCode.Length != 4 || !int.TryParse(pinCode, out _))
             {
                 Console.WriteLine("Error: PIN code must be 4 digits.");
@@ -174,9 +181,14 @@ namespace Console_Lab_3
 
             OutputClientInfoToFile();
         }
+        /// <summary>
+        /// Метод для зміни PIN-коду клієнта. Клієнт вводить новий PIN-код,
+        /// який має бути 4-значним числом та відрізнятися від старого PIN-коду.
+        /// </summary>
         public void ChangePIN()
         {
             string oldPin = pinCode;   // зберігаємо старий PIN
+
             Console.Write("\nEnter new PIN code: ");
             string newPin = Console.ReadLine();
 
@@ -194,10 +206,16 @@ namespace Console_Lab_3
 
             Console.WriteLine("PIN code changed successfully.");
         }
-        public void CheckBalance(ATM atm, Client client)
+        public void CheckBalance(ATM atm)
         {
             Console.Write($"There are {balance:C} on your account.\n");
         }
+        /// <summary>
+        /// Метод для зняття готівки з рахунку клієнта. 
+        /// Клієнт вводить суму зняття, яка має бути додатною 
+        /// та не перевищувати баланс клієнта та кількість готівки в банкоматі.
+        /// </summary>
+        /// <param name="atm">посилання на об'єкт банкомата</param>
         public void CashWithdrawal(ATM atm)
         {
             int withdrawal = GetInt("Enter amount to withdraw (an integer): ");
@@ -233,6 +251,13 @@ namespace Console_Lab_3
             balance -= withdrawal;
             atm.CashAmount -= withdrawal;
         }
+        /// <summary>
+        /// Метод для поповнення рахунку клієнта.
+        /// Клієнт вводить суму поповнення, яка має бути додатною. 
+        /// Після успішного поповнення, баланс клієнта збільшується 
+        /// на введену суму, а кількість готівки в банкоматі також збільшується на цю суму.
+        /// </summary>
+        /// <param name="atm">посилання на об'єкт банкомату</param>
         public void AccountTopUp(ATM atm)
         {
             int addedMoney = GetInt("Enter how much do you want to add (an integer): ");
@@ -255,13 +280,13 @@ namespace Console_Lab_3
             do
             {
                 Console.Write("\n+-- Client's options --+\n"
-                              + "|1. Check your balance\n"
-                              + "|2. Cash withdrawal\n"
-                              + "|3. Account top-up\n"
-                              + "|4. Change your PIN\n"
-                              + "|0. Exit\n"
-                              + "+----------------------+\n");
-                              
+                    + "|1. Check your balance\n"
+                    + "|2. Cash withdrawal\n"
+                    + "|3. Account top-up\n"
+                    + "|4. Change your PIN\n"
+                    + "|0. Exit\n"
+                    + "+----------------------+\n");
+
                 request = GetInt("Your request: ");
 
                 switch (request)
@@ -284,7 +309,7 @@ namespace Console_Lab_3
                     default:
                         Console.WriteLine("Invalid variant entered. Try again.");
                         break;
-                } 
+                }
             } while (request != 0);
         }
     }

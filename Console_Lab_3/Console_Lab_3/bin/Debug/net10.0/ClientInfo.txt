@@ -174,3 +174,11 @@
 |PIN code: 0067
 |Validity period: 1/2029
 +==============================+
+
++======== Client Info =========+
+|First name: Oleksandr
+|Last name: Voloshyn
+|Card number: 4441111100000670
+|PIN code: 0670
+|Validity period: 1/2031
++==============================+

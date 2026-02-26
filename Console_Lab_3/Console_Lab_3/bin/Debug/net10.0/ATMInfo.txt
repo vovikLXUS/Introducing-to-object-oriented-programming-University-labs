@@ -49,13 +49,6 @@
 +===========================+
 
 +======== ATM Info =========+
-|Bank name: Mono Bank
-|ID number: 6769
-|Placement: ???????
-|Cash amount: 300 000,00 ₴
-+===========================+
-
-+======== ATM Info =========+
 |Bank name: MONO Bank
 |ID number: 1234
 |Placement: Bandery street
@@ -137,4 +130,11 @@
 |ID number: 1234
 |Placement: Ukrainska, 2
 |Cash amount: 25 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: MONOBank
+|ID number: 0670
+|Placement: Gugugaga
+|Cash amount: 20 000,00 ₴
 +===========================+

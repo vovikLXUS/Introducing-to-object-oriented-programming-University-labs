@@ -14,18 +14,19 @@ namespace Console_Lab_3
             ATM atm = new ATM();
             Client client = new Client();
             ATM.Bank bank = new ATM.Bank();
-            
+
             int choice;
 
             do
             {
-                Console.WriteLine("\n+------ Main menu ------+"
+                Console.WriteLine("\n+------- Main menu -------+"
                     + "\n|1. Initialize ATM/client"
                     + "\n|2. Show client options"
                     + "\n|3. Show ATM options"
                     + "\n|4. Show Bank options"
+                    + "\n|5. Deposit with interest"
                     + "\n|0. Exit"
-                    + "\n+-----------------------+");
+                    + "\n+-------------------------+");
 
                 choice = client.GetInt("Your choice: ");
 
@@ -42,6 +43,9 @@ namespace Console_Lab_3
                         break;
                     case 4:
                         atm.BankOptionsForUser(bank, client);
+                        break;
+                    case 5:
+                        BankCard.AddDepositToClientBalance(client);
                         break;
                     case 0:
                         Console.WriteLine("Exiting the program. Goodbye!\n");
