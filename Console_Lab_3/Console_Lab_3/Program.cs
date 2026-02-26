@@ -14,6 +14,7 @@ namespace Console_Lab_3
             ATM atm = new ATM();
             Client client = new Client();
             ATM.Bank bank = new ATM.Bank();
+            
 
             int choice;
 

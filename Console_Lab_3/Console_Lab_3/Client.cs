@@ -78,6 +78,7 @@ namespace Console_Lab_3
                 balance = value;
             }
         }
+        public bool IsBlocked { get; set; } = false;
         public Client()
         {
             firstName = "";

@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime;
-using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace Console_Lab_3
 {
-    public class ATM
+    public partial class ATM
     {
         private string atmBankName;
         private string ID;
@@ -230,24 +228,6 @@ namespace Console_Lab_3
                     + $"\n|There are {clientBankCashAmount:C} on your account."
                     + "\n+-------------------------------------+\n");
             }
-            //public void Receiver()
-            //{
-            //    Console.Write("+----------- Receiver -----------+\n"
-            //        + "\nEnter name of the bank: ");
-            //    string newBankName = Console.ReadLine();
-
-            //    Console.Write("\nEnter address of the bank: ");
-            //    string newBankAddress = Console.ReadLine();
-
-            //    long newClientBankID = GetLong("Enter your ID (8 digits): ");
-            //    while (newClientBankID > 99999999)
-            //    {
-            //        Console.Write("\nYour ID must to be 8 digits long!");
-
-            //        newClientBankID = GetLong("Enter your ID correctly: ");
-            //    }
-            //    Console.Write("+--------------------------------+\n");
-            //}
             public bool BankTransfer()
             {
                 Console.Write("+---------------- Receiver ----------------+\n"
@@ -471,33 +451,67 @@ namespace Console_Lab_3
 
             OutPutATMInfoToFile();
         }
+        //public void EnterPIN(Client client)
+        //{
+        //    Console.Write("\nEnter your PIN code: ");
+        //    string enteredPIN = Console.ReadLine();
+
+        //    bool isBlocked = false;
+
+        //    int attempts = 3;
+
+        //    if (enteredPIN != client.PINCode)
+        //    {
+        //        while (attempts > 0)
+        //        {
+        //            Console.WriteLine("Error: Incorrect PIN code."
+        //                + "Enter your PIN code: ");
+        //            enteredPIN = Console.ReadLine();
+
+        //            if (enteredPIN == client.PINCode)
+        //            {
+        //                Console.WriteLine("PIN code accepted.");
+        //                return;
+        //            }
+        //            attempts--;
+        //        }
+        //        Console.WriteLine("Error: Too many failed attempts.");
+        //        isBlocked = true;
+        //    }
+        //}
         public void EnterPIN(Client client)
         {
-            Console.Write("\nEnter your PIN code: ");
-            string enteredPIN = Console.ReadLine();
+            string enteredPIN = "";
 
             int attempts = 3;
 
-            if (enteredPIN != client.PINCode)
+            while (attempts > 0)
             {
-                while (attempts > 0)
-                {
-                    Console.WriteLine("Error: Incorrect PIN code."
-                        + "Enter your PIN code: ");
-                    enteredPIN = Console.ReadLine();
+                Console.Write("\nEnter your PIN code: ");
+                enteredPIN = Console.ReadLine();
 
-                    if (enteredPIN == client.PINCode)
-                    {
-                        Console.WriteLine("PIN code accepted.");
-                        return;
-                    }
-                    attempts--;
+                if (enteredPIN == client.PINCode)
+                {
+                    Console.WriteLine("PIN code accepted.");
+                    return;
                 }
-                Console.WriteLine("Error: Too many failed attempts.");
+
+                attempts--;
+                Console.WriteLine($"Error: Incorrect PIN code. Attempts left: {attempts}."
+                    + "\nEnter your PIN code: ");
             }
+
+            Console.WriteLine("Error: Too many failed attempts.");
+            BlockCard(client);
         }
         public bool Authenticate(Client client)
         {
+            if (client.IsBlocked)
+            {
+                Console.Write("\nYour card is blocked.\n");
+                return false;
+            }
+
             Console.Write("\n+------------------ Authentication -----------------+\n");
             long enteredCardNumber = GetLong("Enter your card number (16 digits): ");
             if (enteredCardNumber != client.CardNumber)
@@ -508,13 +522,22 @@ namespace Console_Lab_3
             Console.Write("Card number accepted.");
 
             EnterPIN(client);
-            // "+--------------------------------------------------+\n"
+
+            if (client.IsBlocked)
+            {
+                Console.Write("\nYour card is blocked.\n");
+                return false;
+            }
+
             return true;
         }
         public void ShowATMOptions(Client client)
         {
             if (!Authenticate(client))
+            { 
+                Console.Write("\nAuthentication failed. Exiting from options...\n");
                 return;
+            }
 
             int request;
 
