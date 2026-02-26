@@ -30,5 +30,6 @@ namespace Console_Lab_3
                 interestRatio = (double)value;
             }
         }
+
     }
 }

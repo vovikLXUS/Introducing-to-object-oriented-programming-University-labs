@@ -15,17 +15,15 @@ namespace Console_Lab_3
             Client client = new Client();
             ATM.Bank bank = new ATM.Bank();
             
-
             int choice;
 
             do
             {
                 Console.WriteLine("\n+------ Main menu ------+"
-                    + "\n|1. Initialize ATM"
-                    + "\n|2. Initialize client"
-                    + "\n|3. Show client options"
-                    + "\n|4. Show ATM options"
-                    + "\n|5. Show Bank options"
+                    + "\n|1. Initialize ATM/client"
+                    + "\n|2. Show client options"
+                    + "\n|3. Show ATM options"
+                    + "\n|4. Show Bank options"
                     + "\n|0. Exit"
                     + "\n+-----------------------+");
 
@@ -34,19 +32,16 @@ namespace Console_Lab_3
                 switch (choice)
                 {
                     case 1:
-                        atm.InitializeATM();
+                        atm.ShowInitializationMenu(atm, client);
                         break;
                     case 2:
-                        client.InitializeClient();
-                        break;
-                    case 3:
                         client.OptionsForUser(atm);
                         break;
-                    case 4:
+                    case 3:
                         atm.ShowATMOptions(client);
                         break;
-                    case 5:
-                        atm.BankOptionsForUser(bank);
+                    case 4:
+                        atm.BankOptionsForUser(bank, client);
                         break;
                     case 0:
                         Console.WriteLine("Exiting the program. Goodbye!\n");

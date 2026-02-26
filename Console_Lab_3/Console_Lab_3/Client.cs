@@ -177,6 +177,7 @@ namespace Console_Lab_3
         public void ChangePIN()
         {
             string oldPin = pinCode;   // зберігаємо старий PIN
+            Console.Write("\nEnter new PIN code: ");
             string newPin = Console.ReadLine();
 
             while (newPin.Length != 4 || !int.TryParse(newPin, out _) || newPin == oldPin)
@@ -193,7 +194,7 @@ namespace Console_Lab_3
 
             Console.WriteLine("PIN code changed successfully.");
         }
-        public void CheckBalance(ATM atm)
+        public void CheckBalance(ATM atm, Client client)
         {
             Console.Write($"There are {balance:C} on your account.\n");
         }
@@ -215,11 +216,11 @@ namespace Console_Lab_3
                 return;
             }
 
-            while (withdrawal > atm.CashAmount)
+            while (withdrawal >= atm.CashAmount)
             {
                 Console.Write("\nThere is not enough cash to do withdrawal."
                     + $"\nIn ATM is {atm.CashAmount:C}. Try again.");
-                withdrawal = GetInt($"\nEnter amount to withdraw correctly (<{atm.CashAmount:C}): ");
+                withdrawal = GetInt($"\nEnter amount to withdraw correctly (<={atm.CashAmount:C}): ");
             }
 
             while (withdrawal > balance)

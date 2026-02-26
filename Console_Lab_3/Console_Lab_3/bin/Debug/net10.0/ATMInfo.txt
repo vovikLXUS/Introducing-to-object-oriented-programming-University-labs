@@ -117,3 +117,24 @@
 |Placement: Vovny
 |Cash amount: 10 000,00 ₴
 +===========================+
+
++======== ATM Info =========+
+|Bank name: MONObank
+|ID number: 3221
+|Placement: Skver
+|Cash amount: 100 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: PUMB
+|ID number: 2233
+|Placement: Bandery 32A
+|Cash amount: 10 000,00 ₴
++===========================+
+
++======== ATM Info =========+
+|Bank name: MONO Bank
+|ID number: 1234
+|Placement: Ukrainska, 2
+|Cash amount: 25 000,00 ₴
++===========================+

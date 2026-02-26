@@ -187,7 +187,7 @@ namespace Console_Lab_3
 
                 OutputClientInBankInfoToFile();
             }
-            public void BankDeposit()
+            public void BankDeposit(Client client)
             {
                 int amount = GetInt("Enter the amount to deposit (in UAH): ");
                 while (amount < 0)
@@ -198,10 +198,11 @@ namespace Console_Lab_3
                 }
 
                 clientBankCashAmount += amount;
+                client.Balance += amount;
 
                 Console.Write($"\nYour account deposited by {amount:C}.\n");
             }
-            public bool BankWithdrawal()
+            public bool BankWithdrawal(Client client)
             {
                 int amount = GetInt("Enter the amount of cash withdrawal: ");
 
@@ -218,6 +219,7 @@ namespace Console_Lab_3
                 }
 
                 clientBankCashAmount -= amount;
+                client.Balance -= amount;
                 Console.Write($"\nYour cash withdrawal of {amount:C} successful.\n");
 
                 return true;
@@ -276,7 +278,7 @@ namespace Console_Lab_3
                 newClient.clientBankCashAmount += amount;
 
                 Console.Write("\n+-----------------------+"
-                            + $"\n|Receiver: {newBankName}\n"
+                    + $"\n|Receiver: {newBankName}\n"
                     + $"|\t   {newBankAddress}\n"
                     + $"|\t   {newClientName}\n"
                     + $"|\t   {newClientSurname}\n"
@@ -323,7 +325,7 @@ namespace Console_Lab_3
                 return true;
             }
         }
-        public void BankOptionsForUser(Bank bank)
+        public void BankOptionsForUser(Bank bank, Client client)
         {
             int choice;
 
@@ -347,10 +349,10 @@ namespace Console_Lab_3
                         bank.InitializeClientInBank();
                         break;
                     case 2:
-                        bank.BankDeposit();
+                        bank.BankDeposit(client);
                         break;
                     case 3:
-                        bank.BankWithdrawal();
+                        bank.BankWithdrawal(client);
                         break;
                     case 4:
                         bank.CheckBankBalance();
@@ -487,12 +489,12 @@ namespace Console_Lab_3
 
             while (attempts > 0)
             {
-                Console.Write("\nEnter your PIN code: ");
+                Console.Write("|Enter your PIN code: ");
                 enteredPIN = Console.ReadLine();
 
                 if (enteredPIN == client.PINCode)
                 {
-                    Console.WriteLine("PIN code accepted.");
+                    Console.WriteLine("|PIN code accepted.");
                     return;
                 }
 
@@ -512,26 +514,58 @@ namespace Console_Lab_3
                 return false;
             }
 
-            Console.Write("\n+------------------ Authentication -----------------+\n");
-            long enteredCardNumber = GetLong("Enter your card number (16 digits): ");
+            Console.Write("\n+------------------- Authentication ------------------+\n");
+            long enteredCardNumber = GetLong("|Enter your card number (16 digits): ");
             if (enteredCardNumber != client.CardNumber)
             {
-                Console.WriteLine("Error: Incorrect card number.");
+                Console.WriteLine("|Error: Incorrect card number.");
                 return false;
             }
-            Console.Write("Card number accepted.");
+            Console.Write("|Card number accepted.\n");
 
             EnterPIN(client);
 
             if (client.IsBlocked)
             {
-                Console.Write("\nYour card is blocked.\n");
+                Console.Write("\n|Your card is blocked.\n");
+                Console.Write("+---------------------------------------------------+\n");
                 return false;
             }
-
+            Console.Write("+---------------------------------------------------+\n");
             return true;
         }
-        public void ShowATMOptions(Client client)
+        public void ShowInitializationMenu(ATM atm, Client client)
+        {
+            int choice;
+
+            do
+            {
+                Console.Write("\n+--- Initialization menu ---+"
+                    + "\n|1. Initialize ATM"
+                    + "\n|2. Initialize client"
+                    + "\n|0. Go back"
+                    + "\n+---------------------------+");
+
+                choice = client.GetInt("\nYour choice: ");
+
+                switch (choice)
+                {
+                    case 1:
+                        atm.InitializeATM();
+                        break;
+                    case 2:
+                        client.InitializeClient();
+                        break;
+                    case 0:
+                        Console.WriteLine("Exiting the initialization. Thank you!");
+                        break;
+                    default:
+                        Console.WriteLine("Invalid option. Please try again.");
+                        break;
+                }
+            } while (choice != 0);
+        }
+        public void ShowATMOptions(Client client, ATM atm)
         {
             if (!Authenticate(client))
             { 
@@ -556,7 +590,7 @@ namespace Console_Lab_3
                 switch (request)
                 {
                     case 1:
-                        client.CheckBalance(this);
+                        client.CheckBalance(atm, client);
                         break;
                     case 2:
                         client.CashWithdrawal(this);

@@ -150,3 +150,27 @@
 |PIN code: 1234
 |Validity period: 1/2031
 +==============================+
+
++======== Client Info =========+
+|First name: Volodymyr
+|Last name: Datsyshyn
+|Card number: 1234567887654321
+|PIN code: 1234
+|Validity period: 1/2031
++==============================+
+
++======== Client Info =========+
+|First name: Anastasia
+|Last name: Hurovska
+|Card number: 1234567812345678
+|PIN code: 0121
+|Validity period: 1/2031
++==============================+
+
++======== Client Info =========+
+|First name: Volodymyr
+|Last name: Datsyshyn
+|Card number: 1234567812345678
+|PIN code: 0067
+|Validity period: 1/2029
++==============================+

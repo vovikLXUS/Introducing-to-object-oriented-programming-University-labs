@@ -54,3 +54,31 @@
 |Client ID: 12345678
 |Client cash amount: 35 000,00 ₴
 +=================================+
+
++=========== Bank Info ===========+
+|Bank name: Volodymyr
+|Bank address: Datsyshyn
+|Client ID: 01234567
+|Client cash amount: 100 000,00 ₴
++=================================+
+
++=========== Bank Info ===========+
+|Bank name: MONO Bank
+|Bank address: Nyzhniy Val, 32
+|Client ID: 01234567
+|Client cash amount: 10 000,00 ₴
++=================================+
+
++=========== Bank Info ===========+
+|Bank name: MONO Bank
+|Bank address: Nyzhniy Val, 32
+|Client ID: 12345678
+|Client cash amount: 100 000,00 ₴
++=================================+
+
++=========== Bank Info ===========+
+|Bank name: MONO Bank
+|Bank address: Nyzniy Val, 32
+|Client ID: 12345678
+|Client cash amount: 1 100 000,00 ₴
++=================================+
