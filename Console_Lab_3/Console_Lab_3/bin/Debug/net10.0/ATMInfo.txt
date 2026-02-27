@@ -138,3 +138,10 @@
 |Placement: Gugugaga
 |Cash amount: 20 000,00 ₴
 +===========================+
+
++======== ATM Info =========+
+|Bank name: MONOBank
+|ID number: 1234
+|Placement: Magacityboy
+|Cash amount: 10 000,00 ₴
++===========================+
