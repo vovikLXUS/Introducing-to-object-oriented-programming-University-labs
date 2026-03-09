@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version1\\Console_Lab_4_version1\\Console_Lab_4_version1.csproj": {}
+    "C:\\Users\\Володя\\Desktop\\Console_Lab_4_version3\\Console_Lab_4_version3\\Console_Lab_4_version3.csproj": {}
   },
   "projects": {
-    "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version1\\Console_Lab_4_version1\\Console_Lab_4_version1.csproj": {
+    "C:\\Users\\Володя\\Desktop\\Console_Lab_4_version3\\Console_Lab_4_version3\\Console_Lab_4_version3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version1\\Console_Lab_4_version1\\Console_Lab_4_version1.csproj",
-        "projectName": "Console_Lab_4_version1",
-        "projectPath": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version1\\Console_Lab_4_version1\\Console_Lab_4_version1.csproj",
+        "projectUniqueName": "C:\\Users\\Володя\\Desktop\\Console_Lab_4_version3\\Console_Lab_4_version3\\Console_Lab_4_version3.csproj",
+        "projectName": "Console_Lab_4_version3",
+        "projectPath": "C:\\Users\\Володя\\Desktop\\Console_Lab_4_version3\\Console_Lab_4_version3\\Console_Lab_4_version3.csproj",
         "packagesPath": "C:\\Users\\Володя\\.nuget\\packages\\",
-        "outputPath": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version1\\Console_Lab_4_version1\\obj\\",
+        "outputPath": "C:\\Users\\Володя\\Desktop\\Console_Lab_4_version3\\Console_Lab_4_version3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Володя\\AppData\\Roaming\\NuGet\\NuGet.Config",

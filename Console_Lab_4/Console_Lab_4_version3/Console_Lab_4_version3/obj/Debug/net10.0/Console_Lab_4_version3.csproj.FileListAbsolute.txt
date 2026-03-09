@@ -1,0 +1,14 @@
+C:\Users\Володя\Desktop\Console_Lab_4_version3\Console_Lab_4_version3\bin\Debug\net10.0\Console_Lab_4_version3.exe
+C:\Users\Володя\Desktop\Console_Lab_4_version3\Console_Lab_4_version3\bin\Debug\net10.0\Console_Lab_4_version3.deps.json
+C:\Users\Володя\Desktop\Console_Lab_4_version3\Console_Lab_4_version3\bin\Debug\net10.0\Console_Lab_4_version3.runtimeconfig.json
+C:\Users\Володя\Desktop\Console_Lab_4_version3\Console_Lab_4_version3\bin\Debug\net10.0\Console_Lab_4_version3.dll
+C:\Users\Володя\Desktop\Console_Lab_4_version3\Console_Lab_4_version3\bin\Debug\net10.0\Console_Lab_4_version3.pdb
+C:\Users\Володя\Desktop\Console_Lab_4_version3\Console_Lab_4_version3\obj\Debug\net10.0\Console_Lab_4_version3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Володя\Desktop\Console_Lab_4_version3\Console_Lab_4_version3\obj\Debug\net10.0\Console_Lab_4_version3.AssemblyInfoInputs.cache
+C:\Users\Володя\Desktop\Console_Lab_4_version3\Console_Lab_4_version3\obj\Debug\net10.0\Console_Lab_4_version3.AssemblyInfo.cs
+C:\Users\Володя\Desktop\Console_Lab_4_version3\Console_Lab_4_version3\obj\Debug\net10.0\Console_Lab_4_version3.csproj.CoreCompileInputs.cache
+C:\Users\Володя\Desktop\Console_Lab_4_version3\Console_Lab_4_version3\obj\Debug\net10.0\Console_Lab_4_version3.dll
+C:\Users\Володя\Desktop\Console_Lab_4_version3\Console_Lab_4_version3\obj\Debug\net10.0\refint\Console_Lab_4_version3.dll
+C:\Users\Володя\Desktop\Console_Lab_4_version3\Console_Lab_4_version3\obj\Debug\net10.0\Console_Lab_4_version3.pdb
+C:\Users\Володя\Desktop\Console_Lab_4_version3\Console_Lab_4_version3\obj\Debug\net10.0\Console_Lab_4_version3.genruntimeconfig.cache
+C:\Users\Володя\Desktop\Console_Lab_4_version3\Console_Lab_4_version3\obj\Debug\net10.0\ref\Console_Lab_4_version3.dll

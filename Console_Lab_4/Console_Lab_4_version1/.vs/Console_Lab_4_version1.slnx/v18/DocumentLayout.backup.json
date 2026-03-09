@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\ItOOP_Labs\\Console_Lab_4_version1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6293F0C8-5FEB-1F24-3CC7-F0C7173C17C4}|Console_Lab_4_version1\\Console_Lab_4_version1.csproj|e:\\itoop_labs\\console_lab_4_version1\\console_lab_4_version1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6293F0C8-5FEB-1F24-3CC7-F0C7173C17C4}|Console_Lab_4_version1\\Console_Lab_4_version1.csproj|solutionrelative:console_lab_4_version1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6293F0C8-5FEB-1F24-3CC7-F0C7173C17C4}|Console_Lab_4_version1\\Console_Lab_4_version1.csproj|e:\\itoop_labs\\console_lab_4_version1\\console_lab_4_version1\\labmodels\\locality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6293F0C8-5FEB-1F24-3CC7-F0C7173C17C4}|Console_Lab_4_version1\\Console_Lab_4_version1.csproj|solutionrelative:console_lab_4_version1\\labmodels\\locality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6293F0C8-5FEB-1F24-3CC7-F0C7173C17C4}|Console_Lab_4_version1\\Console_Lab_4_version1.csproj|e:\\itoop_labs\\console_lab_4_version1\\console_lab_4_version1\\labmodels\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6293F0C8-5FEB-1F24-3CC7-F0C7173C17C4}|Console_Lab_4_version1\\Console_Lab_4_version1.csproj|solutionrelative:console_lab_4_version1\\labmodels\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6293F0C8-5FEB-1F24-3CC7-F0C7173C17C4}|Console_Lab_4_version1\\Console_Lab_4_version1.csproj|e:\\itoop_labs\\console_lab_4_version1\\console_lab_4_version1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6293F0C8-5FEB-1F24-3CC7-F0C7173C17C4}|Console_Lab_4_version1\\Console_Lab_4_version1.csproj|solutionrelative:console_lab_4_version1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,52 +34,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Country.cs",
               "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_4_version1\\Console_Lab_4_version1\\labModels\\Country.cs",
               "RelativeDocumentMoniker": "Console_Lab_4_version1\\labModels\\Country.cs",
               "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_4_version1\\Console_Lab_4_version1\\labModels\\Country.cs",
               "RelativeToolTip": "Console_Lab_4_version1\\labModels\\Country.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAnwEQAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAEsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T12:57:16.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "City.cs",
               "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_4_version1\\Console_Lab_4_version1\\labModels\\City.cs",
               "RelativeDocumentMoniker": "Console_Lab_4_version1\\labModels\\City.cs",
               "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_4_version1\\Console_Lab_4_version1\\labModels\\City.cs",
               "RelativeToolTip": "Console_Lab_4_version1\\labModels\\City.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA9wEcAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T12:56:45.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Locality.cs",
               "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_4_version1\\Console_Lab_4_version1\\labModels\\Locality.cs",
               "RelativeDocumentMoniker": "Console_Lab_4_version1\\labModels\\Locality.cs",
-              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_4_version1\\Console_Lab_4_version1\\labModels\\Locality.cs*",
-              "RelativeToolTip": "Console_Lab_4_version1\\labModels\\Locality.cs*",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAiwHIAAAA3AAAAAAAAAA==",
+              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_4_version1\\Console_Lab_4_version1\\labModels\\Locality.cs",
+              "RelativeToolTip": "Console_Lab_4_version1\\labModels\\Locality.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAqwMYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T12:56:30.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_4_version1\\Console_Lab_4_version1\\Program.cs",
               "RelativeDocumentMoniker": "Console_Lab_4_version1\\Program.cs",
               "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_4_version1\\Console_Lab_4_version1\\Program.cs",
               "RelativeToolTip": "Console_Lab_4_version1\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAgwEQAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T12:55:54.33Z",
               "EditorCaption": ""
