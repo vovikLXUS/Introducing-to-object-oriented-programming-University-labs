@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
 
-namespace Console_Lab_3
+namespace Console_Lab_3.models
 {
     public class Client
     {
@@ -99,32 +98,6 @@ namespace Console_Lab_3
             this.cardNumber = cardNumber;
             this.validityPeriod = validityPeriod;
         }
-        // Методи для отримання числа від користувача з обробкою помилок введення 
-        // для скорочення довжини коду
-        public int GetInt(string request)
-        {
-            int result;
-
-            Console.Write(request);
-            while (!int.TryParse(Console.ReadLine(), out result))
-            {
-                Console.WriteLine("Error: please enter a valid integer.");
-                Console.Write(request);
-            }
-            return result;
-        }
-        public long GetLong(string request)
-        {
-            long result;
-
-            Console.Write(request);
-            while (!long.TryParse(Console.ReadLine(), out result))
-            {
-                Console.WriteLine("Error: please enter a valid integer.");
-                Console.Write(request);
-            }
-            return result;
-        }
         // Виведення заповненої таблиці на консоль та в текстовий файл
         public void PrintClientInfo()
         {
@@ -161,7 +134,7 @@ namespace Console_Lab_3
             Console.Write("Enter your last name: ");
             lastName = Console.ReadLine();
 
-            cardNumber = GetLong("Enter your card number (16 digits, without 'SPACE'): ");
+            cardNumber = Helper.GetLong("Enter your card number (16 digits, without 'SPACE'): ");
 
             Console.Write("Enter your PIN code (4 digits): ");
             pinCode = Console.ReadLine();
@@ -173,8 +146,8 @@ namespace Console_Lab_3
             }
 
             validityPeriod = new int[2];
-            validityPeriod[0] = GetInt("Enter the validity period month (MM): ");
-            validityPeriod[1] = GetInt("Enter the validity year (YYYY): ");
+            validityPeriod[0] = Helper.GetInt("Enter the validity period month (MM): ");
+            validityPeriod[1] = Helper.GetInt("Enter the validity year (YYYY): ");
             Console.Write("+-------------------------------------------------------------------+\n");
 
             PrintClientInfo();
@@ -218,13 +191,13 @@ namespace Console_Lab_3
         /// <param name="atm">посилання на об'єкт банкомата</param>
         public void CashWithdrawal(ATM atm)
         {
-            int withdrawal = GetInt("Enter amount to withdraw (an integer): ");
+            int withdrawal = Helper.GetInt("Enter amount to withdraw (an integer): ");
 
             while (withdrawal <= 0)
             {
                 Console.Write($"The withdrawal of {withdrawal:C} is not possible.\n"
                     + $"It has to be greater than 0.");
-                withdrawal = GetInt("\nEnter amount to withdraw correctly (an integer): ");
+                withdrawal = Helper.GetInt("\nEnter amount to withdraw correctly (an integer): ");
             }
 
             if (balance == 0)
@@ -238,14 +211,14 @@ namespace Console_Lab_3
             {
                 Console.Write("\nThere is not enough cash to do withdrawal."
                     + $"\nIn ATM is {atm.CashAmount:C}. Try again.");
-                withdrawal = GetInt($"\nEnter amount to withdraw correctly (<={atm.CashAmount:C}): ");
+                withdrawal = Helper.GetInt($"\nEnter amount to withdraw correctly (<={atm.CashAmount:C}): ");
             }
 
             while (withdrawal > balance)
             {
                 Console.Write($"The withdrawal of {withdrawal:C} is not possible.\n"
                     + $"Your balance: {balance:C}.");
-                withdrawal = GetInt("\nEnter amount to withdraw correctly (an integer): ");
+                withdrawal = Helper.GetInt("\nEnter amount to withdraw correctly (an integer): ");
             }
 
             balance -= withdrawal;
@@ -260,12 +233,12 @@ namespace Console_Lab_3
         /// <param name="atm">посилання на об'єкт банкомату</param>
         public void AccountTopUp(ATM atm)
         {
-            int addedMoney = GetInt("Enter how much do you want to add (an integer): ");
+            int addedMoney = Helper.GetInt("Enter how much do you want to add (an integer): ");
 
             while (addedMoney <= 0)
             {
                 Console.Write($"The top-up of {addedMoney} is not possible, it has to be greater than 0.");
-                addedMoney = GetInt("Enter correct value of top-up: ");
+                addedMoney = Helper.GetInt("Enter correct value of top-up: ");
             }
 
             balance += addedMoney;
@@ -287,7 +260,7 @@ namespace Console_Lab_3
                     + "|0. Exit\n"
                     + "+----------------------+\n");
 
-                request = GetInt("Your request: ");
+                request = Helper.GetInt("Your request: ");
 
                 switch (request)
                 {

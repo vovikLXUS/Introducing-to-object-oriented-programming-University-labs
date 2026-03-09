@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Console_Lab_3.models;
+using System;
 using System.Text;
 
 namespace Console_Lab_3

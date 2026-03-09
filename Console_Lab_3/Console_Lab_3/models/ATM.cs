@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Console_Lab_3.models;
+using System;
 using System.Text;
 
 namespace Console_Lab_3
@@ -182,13 +182,13 @@ namespace Console_Lab_3
                     clientBankID = Console.ReadLine();
                 }
 
-                clientBankCashAmount = GetInt("Enter your bank's cash amount: ");
+                clientBankCashAmount = Helper.GetInt("Enter your bank's cash amount: ");
 
                 while (clientBankCashAmount < 0)
                 {
                     Console.Write("Your bank's cash amount must be greater than 0.");
 
-                    clientBankCashAmount = GetInt("Enter your bank's cash amount correctly: ");
+                    clientBankCashAmount = Helper.GetInt("Enter your bank's cash amount correctly: ");
                 }
                 Console.Write("+-------------------------------------+\n");
 
@@ -203,16 +203,16 @@ namespace Console_Lab_3
             /// <param name="client">посилання на об'єкт клієнта</param>
             public void BankDeposit(Client client)
             {
-                int amount = GetInt("Enter the amount to deposit (in UAH): ");
+                int amount = Helper.GetInt("Enter the amount to deposit (in UAH): ");
 
                 while (amount < 0)
                 {
                     Console.Write("Your deposit must be greater than 0.\n");
 
-                    amount = GetInt("Enter your deposit correctly: ");
+                    amount = Helper.GetInt("Enter your deposit correctly: ");
                 }
 
-                clientBankCashAmount += amount;
+                clientBankCashAmount += amount + client.Balance;
                 client.Balance += amount;
 
                 Console.Write($"\nYour account deposited by {amount:C}.\n");
@@ -225,7 +225,7 @@ namespace Console_Lab_3
             /// <returns>успіх/невдачу</returns>
             public bool BankWithdrawal(Client client)
             {
-                int amount = GetInt("Enter the amount of cash withdrawal: ");
+                int amount = Helper.GetInt("Enter the amount of cash withdrawal: ");
 
                 if (amount < 0)
                 {
@@ -285,7 +285,7 @@ namespace Console_Lab_3
 
                 Bank newClient = new Bank(newBankName, newBankAddress, newClientBankID, 0);
 
-                int amount = GetInt("Enter cash amount to transfer: ");
+                int amount = Helper.GetInt("Enter cash amount to transfer: ");
 
                 if (amount > clientBankCashAmount)
                 {
@@ -327,7 +327,7 @@ namespace Console_Lab_3
                     + $"|and you balance is: {clientBankCashAmount:C}.\n"
                     + "+-----------------------------------+\n");
 
-                int choice = GetInt("Do you want to pay for utilities (1/0): ");
+                int choice = Helper.GetInt("Do you want to pay for utilities (1/0): ");
 
                 if (choice == 0)
                 {
@@ -354,80 +354,53 @@ namespace Console_Lab_3
 
                 return true;
             }
-        }
-        public void BankOptionsForUser(Bank bank, Client client)
-        {
-            int choice;
-
-            do
+            public void BankOptionsForUser(Bank bank, Client client)
             {
-                Console.Write("\n+-------- Bank options --------+"
-                    + "\n|1. Initialize client in a bank"
-                    + "\n|2. Deposit your account"
-                    + "\n|3. Cash withdrawal"
-                    + "\n|4. Check balance"
-                    + "\n|5. Transfer your money"
-                    + "\n|6. Pay for utilities"
-                    + "\n|0. Exit"
-                    + "\n+------------------------------+\n");
+                int choice;
 
-                choice = GetInt("Your choice: ");
-
-                switch (choice)
+                do
                 {
-                    case 1:
-                        bank.InitializeClientInBank();
-                        break;
-                    case 2:
-                        bank.BankDeposit(client);
-                        break;
-                    case 3:
-                        bank.BankWithdrawal(client);
-                        break;
-                    case 4:
-                        bank.CheckBankBalance();
-                        break;
-                    case 5:
-                        bank.BankTransfer();
-                        break;
-                    case 6:
-                        bank.BankPayUtility();
-                        break;
-                    case 0:
-                        Console.WriteLine("Exiting from options...");
-                        break;
-                    default:
-                        Console.WriteLine("Invalid input, try again.\n");
-                        break;
-                }
-            } while (choice != 0);
-        }
-        // Методи для отримання коректного вводу від користувача
-        static int GetInt(string request)
-        {
-            int result;
+                    Console.Write("\n+-------- Bank options --------+"
+                        + "\n|1. Initialize client in a bank"
+                        + "\n|2. Deposit your account"
+                        + "\n|3. Cash withdrawal"
+                        + "\n|4. Check balance"
+                        + "\n|5. Transfer your money"
+                        + "\n|6. Pay for utilities"
+                        + "\n|0. Exit"
+                        + "\n+------------------------------+\n");
 
-            Console.Write(request);
-            while (!int.TryParse(Console.ReadLine(), out result))
-            {
-                Console.WriteLine("Error: please enter a valid integer.");
-                Console.Write(request);
+                    choice = Helper.GetInt("Your choice: ");
+
+                    switch (choice)
+                    {
+                        case 1:
+                            bank.InitializeClientInBank();
+                            break;
+                        case 2:
+                            bank.BankDeposit(client);
+                            break;
+                        case 3:
+                            bank.BankWithdrawal(client);
+                            break;
+                        case 4:
+                            bank.CheckBankBalance();
+                            break;
+                        case 5:
+                            bank.BankTransfer();
+                            break;
+                        case 6:
+                            bank.BankPayUtility();
+                            break;
+                        case 0:
+                            Console.WriteLine("Exiting from options...");
+                            break;
+                        default:
+                            Console.WriteLine("Invalid input, try again.\n");
+                            break;
+                    }
+                } while (choice != 0);
             }
-
-            return result;
-        }
-        static long GetLong(string request)
-        {
-            long result;
-
-            Console.Write(request);
-            while (!long.TryParse(Console.ReadLine(), out result))
-            {
-                Console.WriteLine("Error: please enter a valid integer.");
-                Console.Write(request);
-            }
-
-            return result;
         }
         public void PrintATMInfo()
         {
@@ -474,12 +447,12 @@ namespace Console_Lab_3
             Console.Write("Enter the placement of the ATM (street): ");
             placement = Console.ReadLine();
 
-            cashAmount = GetInt("Enter the cash amount (in UAH): ");
+            cashAmount = Helper.GetInt("Enter the cash amount (in UAH): ");
 
             while (cashAmount < 0)
             {
                 Console.Write("Cash amount must be greater than 0.");
-                cashAmount = GetInt("Enter the cash amount correctly (in UAH): ");
+                cashAmount = Helper.GetInt("Enter the cash amount correctly (in UAH): ");
             }
             Console.Write("+----------------------------------------------------+\n");
 
@@ -532,7 +505,7 @@ namespace Console_Lab_3
             }
 
             Console.Write("\n+------------------- Authentication ------------------+\n");
-            long enteredCardNumber = GetLong("|Enter your card number (16 digits): ");
+            long enteredCardNumber = Helper.GetLong("|Enter your card number (16 digits): ");
 
             if (enteredCardNumber != client.CardNumber)
             {
@@ -565,7 +538,7 @@ namespace Console_Lab_3
                     + "\n|0. Go back"
                     + "\n+---------------------------+");
 
-                choice = client.GetInt("\nYour choice: ");
+                choice = Helper.GetInt("\nYour choice: ");
 
                 switch (choice)
                 {
@@ -604,7 +577,7 @@ namespace Console_Lab_3
                     + "|0. Exit\n"
                     + "+---------------------+\n");
 
-                request = GetInt("Your request: ");
+                request = Helper.GetInt("Your request: ");
 
                 switch (request)
                 {

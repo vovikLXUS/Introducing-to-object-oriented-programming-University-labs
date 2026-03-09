@@ -1,192 +1,24 @@
 
 +======== Client Info =========+
-|First name: kolbo
-|Last name: valerich
-|Card number: 5168111119213421
+|First name: Vasyl
+|Last name: Kolbo
+|Card number: 12341234123421234
 |PIN code: 1234
-|Validity period: 11/2067
+|Validity period: 12/2031
 +==============================+
 
 +======== Client Info =========+
-|First name: Volodymyr
-|Last name: Datsyshyn
-|Card number: 5168123412341234
+|First name: Vladik
+|Last name: Sapoznik
+|Card number: 4441111100000000
 |PIN code: 1234
-|Validity period: 1/2029
-+==============================+
-
-+======== Client Info =========+
-|First name: Volodymyr
-|Last name: Datsyshyn
-|Card number: 4441111112341234
-|PIN code: 4321
-|Validity period: 1/2031
-+==============================+
-
-+======== Client Info =========+
-|First name: Korniy
-|Last name: TheBest
-|Card number: 1234123443214321
-|PIN code: 1234
-|Validity period: 1/2027
+|Validity period: 12/2029
 +==============================+
 
 +======== Client Info =========+
 |First name: Illya
-|Last name: Vabyshchevych
-|Card number: 1234567812345678
-|PIN code: 1000
-|Validity period: 1/2031
-+==============================+
-
-+======== Client Info =========+
-|First name: Yaroslav
-|Last name: Obozov
-|Card number: 4441111100000007
-|PIN code: 2142
-|Validity period: 11/2028
-+==============================+
-
-+======== Client Info =========+
-|First name: Anastasia
-|Last name: Hurovska
-|Card number: 4321567812348765
-|PIN code: 2807
-|Validity period: 5/2027
-+==============================+
-
-+======== Client Info =========+
-|First name: Anastasia 
-|Last name: Hurovska
-|Card number: 1234876543215678
-|PIN code: 2807
-|Validity period: 5/2029
-+==============================+
-
-+======== Client Info =========+
-|First name: Volodymyr
-|Last name: Datsyshyn
-|Card number: 1234567812345678
-|PIN code: 4342
-|Validity period: 7/2028
-+==============================+
-
-+======== Client Info =========+
-|First name: Volodymyr 
-|Last name: Datsyshyn
-|Card number: 4321567887651234
-|PIN code: 3345
-|Validity period: 3/2031
-+==============================+
-
-+======== Client Info =========+
-|First name: David
-|Last name: Kolesnyk
-|Card number: 1234123412341234
-|PIN code: 1232
-|Validity period: 1/2026
-+==============================+
-
-+======== Client Info =========+
-|First name: Volodymyr
-|Last name: Datsyshyn
-|Card number: 1234123412341234
+|Last name: Vabyshchevych-Karol
+|Card number: 4441111100004444
 |PIN code: 1234
-|Validity period: 1/2027
-+==============================+
-
-+======== Client Info =========+
-|First name: Anastasia 
-|Last name: Hurovska
-|Card number: 1234567887654321
-|PIN code: 0123
-|Validity period: 1/2021
-+==============================+
-
-+======== Client Info =========+
-|First name: Anastasia
-|Last name: Hurovska
-|Card number: 1234567887654321
-|PIN code: 0011
-|Validity period: 1/2026
-+==============================+
-
-+======== Client Info =========+
-|First name: Volodymyr
-|Last name: Datsyshyn
-|Card number: 1234567812345678
-|PIN code: 1234
-|Validity period: 1/2031
-+==============================+
-
-+======== Client Info =========+
-|First name: Anastasia
-|Last name: Hurovska
-|Card number: 1234567887654321
-|PIN code: 1234
-|Validity period: 1/2031
-+==============================+
-
-+======== Client Info =========+
-|First name: Volodymyr
-|Last name: Datsyshyn
-|Card number: 4441111150534166
-|PIN code: 4321
-|Validity period: 1/2041
-+==============================+
-
-+======== Client Info =========+
-|First name: Anastasia
-|Last name: Hurovska
-|Card number: 1234567887654321
-|PIN code: 1234
-|Validity period: 1/2031
-+==============================+
-
-+======== Client Info =========+
-|First name: Anastasia
-|Last name: Hurovska
-|Card number: 1234567887654321
-|PIN code: 1234
-|Validity period: 1/2031
-+==============================+
-
-+======== Client Info =========+
-|First name: Volodymyr
-|Last name: Datsyshyn
-|Card number: 1234567887654321
-|PIN code: 1234
-|Validity period: 1/2031
-+==============================+
-
-+======== Client Info =========+
-|First name: Anastasia
-|Last name: Hurovska
-|Card number: 1234567812345678
-|PIN code: 0121
-|Validity period: 1/2031
-+==============================+
-
-+======== Client Info =========+
-|First name: Volodymyr
-|Last name: Datsyshyn
-|Card number: 1234567812345678
-|PIN code: 0067
-|Validity period: 1/2029
-+==============================+
-
-+======== Client Info =========+
-|First name: Oleksandr
-|Last name: Voloshyn
-|Card number: 4441111100000670
-|PIN code: 0670
-|Validity period: 1/2031
-+==============================+
-
-+======== Client Info =========+
-|First name: Vladyslav
-|Last name: Sapozhnyk
-|Card number: 4441111167676767
-|PIN code: 6767
-|Validity period: 6/2067
+|Validity period: 6/2029
 +==============================+

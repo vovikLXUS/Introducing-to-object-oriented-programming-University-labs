@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|solutionrelative:console_lab_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|e:\\itoop_labs\\console_lab_3\\console_lab_3\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|solutionrelative:console_lab_3\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|e:\\itoop_labs\\console_lab_3\\console_lab_3\\models\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|solutionrelative:console_lab_3\\models\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|e:\\itoop_labs\\console_lab_3\\console_lab_3\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|solutionrelative:console_lab_3\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|e:\\itoop_labs\\console_lab_3\\console_lab_3\\models\\bankcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|solutionrelative:console_lab_3\\models\\bankcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|e:\\itoop_labs\\console_lab_3\\console_lab_3\\bankcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|solutionrelative:console_lab_3\\bankcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|e:\\itoop_labs\\console_lab_3\\console_lab_3\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|solutionrelative:console_lab_3\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|e:\\itoop_labs\\console_lab_3\\console_lab_3\\atm.security.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|solutionrelative:console_lab_3\\atm.security.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|e:\\itoop_labs\\console_lab_3\\console_lab_3\\models\\atm.security.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|solutionrelative:console_lab_3\\models\\atm.security.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|e:\\itoop_labs\\console_lab_3\\console_lab_3\\models\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D122F20C-0653-7730-D015-9206B15EA744}|Console_Lab_3\\Console_Lab_3.csproj|solutionrelative:console_lab_3\\models\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +42,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\models\\Helper.cs",
+              "RelativeDocumentMoniker": "Console_Lab_3\\models\\Helper.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\models\\Helper.cs",
+              "RelativeToolTip": "Console_Lab_3\\models\\Helper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T10:03:44.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BankCard.cs",
-              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\BankCard.cs",
-              "RelativeDocumentMoniker": "Console_Lab_3\\BankCard.cs",
-              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\BankCard.cs",
-              "RelativeToolTip": "Console_Lab_3\\BankCard.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwDsAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\models\\BankCard.cs",
+              "RelativeDocumentMoniker": "Console_Lab_3\\models\\BankCard.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\models\\BankCard.cs",
+              "RelativeToolTip": "Console_Lab_3\\models\\BankCard.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T10:03:37.146Z",
               "EditorCaption": ""
@@ -53,37 +70,37 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ATM.Security.cs",
-              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\ATM.Security.cs",
-              "RelativeDocumentMoniker": "Console_Lab_3\\ATM.Security.cs",
-              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\ATM.Security.cs",
-              "RelativeToolTip": "Console_Lab_3\\ATM.Security.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\models\\ATM.Security.cs",
+              "RelativeDocumentMoniker": "Console_Lab_3\\models\\ATM.Security.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\models\\ATM.Security.cs",
+              "RelativeToolTip": "Console_Lab_3\\models\\ATM.Security.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T09:04:33.699Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ATM.cs",
-              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\ATM.cs",
-              "RelativeDocumentMoniker": "Console_Lab_3\\ATM.cs",
-              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\ATM.cs",
-              "RelativeToolTip": "Console_Lab_3\\ATM.cs",
-              "ViewState": "AgIAAGMCAAAAAAAAAAAAACgCAABCAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\models\\ATM.cs",
+              "RelativeDocumentMoniker": "Console_Lab_3\\models\\ATM.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\models\\ATM.cs",
+              "RelativeToolTip": "Console_Lab_3\\models\\ATM.cs",
+              "ViewState": "AgIAACoCAAAAAAAAAAAAAF0CAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T17:24:23.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Client.cs",
-              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\Client.cs",
-              "RelativeDocumentMoniker": "Console_Lab_3\\Client.cs",
-              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\Client.cs",
-              "RelativeToolTip": "Console_Lab_3\\Client.cs",
-              "ViewState": "AgIAABcBAAAAAAAAAAAAALkAAAAMAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\models\\Client.cs",
+              "RelativeDocumentMoniker": "Console_Lab_3\\models\\Client.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\models\\Client.cs",
+              "RelativeToolTip": "Console_Lab_3\\models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T17:24:08.429Z",
               "EditorCaption": ""
@@ -96,7 +113,7 @@
               "RelativeDocumentMoniker": "Console_Lab_3\\Program.cs",
               "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_3\\Console_Lab_3\\Program.cs",
               "RelativeToolTip": "Console_Lab_3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T17:21:52.265Z",
               "EditorCaption": ""

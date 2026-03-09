@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Console_Lab_3.models;
+using System;
 using System.Text;
 
 namespace Console_Lab_3
@@ -28,7 +27,7 @@ namespace Console_Lab_3
                     + "\n|0. Exit"
                     + "\n+-------------------------+");
 
-                choice = client.GetInt("Your choice: ");
+                choice = Helper.GetInt("Your choice: ");
 
                 switch (choice)
                 {
@@ -42,7 +41,7 @@ namespace Console_Lab_3
                         atm.ShowATMOptions(client);
                         break;
                     case 4:
-                        atm.BankOptionsForUser(bank, client);
+                        bank.BankOptionsForUser(bank, client);
                         break;
                     case 5:
                         BankCard.AddDepositToClientBalance(client);

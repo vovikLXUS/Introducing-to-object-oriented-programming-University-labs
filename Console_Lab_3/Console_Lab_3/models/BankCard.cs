@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
 
-namespace Console_Lab_3
+namespace Console_Lab_3.models
 {
     public static class BankCard
     {
