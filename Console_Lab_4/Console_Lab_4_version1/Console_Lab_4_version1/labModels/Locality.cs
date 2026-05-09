@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Linq;
 
 namespace Console_Lab_4.labModels
 {
@@ -59,6 +60,38 @@ namespace Console_Lab_4.labModels
             Console.Write($"|Population:            {Population}\n"
                 + $"|Size of territory:     {SizeOfTerritory} km in square\n"
                 + "+------------------------------------------------------------------+\n");
+        }
+        public void OutputCityToFile(City city,
+            double absoluteIncrease, double laborPotential,
+            double investsPotential, double wholeEconomicPotential)
+        {
+            string filePath = "Calculations.txt";
+
+            using (StreamWriter sw = new StreamWriter(filePath, true))
+            {
+                sw.Write($"\n+----------- Potential of {city.Name} -----------+"
+                    + $"\n|Potential in industry: {absoluteIncrease:F3}"
+                    + $"\n|Labor potential:       {laborPotential:F3}"
+                    + $"\n|Investments potential: {investsPotential:F3}"
+                    + $"\n|Economic potential:    {wholeEconomicPotential:F3}"
+                    + "\n+-------------------------------------------+\n");
+            }
+        }
+        public void OutputCountryToFile(Country country,
+            double absoluteIncrease, double laborPotential,
+            double investsPotential, double wholeEconomicPotential)
+        {
+            string filePath = "Calculations.txt";
+
+            using (StreamWriter sw = new StreamWriter(filePath, true))
+            {
+                sw.Write($"\n+----------- Potential of {country.Name} -----------+"
+                    + $"\n|Potential in industry: {absoluteIncrease:F3}"
+                    + $"\n|Labor potential:       {laborPotential:F3}"
+                    + $"\n|Investments potential: {investsPotential:F3}"
+                    + $"\n|Economic potential:    {wholeEconomicPotential:F3}"
+                    + "\n+-------------------------------------------+\n");
+            }
         }
         public void TellAboutIndustrialIncome()
         {

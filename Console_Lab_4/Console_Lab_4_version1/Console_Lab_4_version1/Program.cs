@@ -84,10 +84,12 @@ namespace Console_Lab_4_version_1
             // Calculation of whole economic potential
             locality.TellAboutEconomicPotential();
             city.MessageBeforeCalculationOfEcoPot();
-            city.EconomicPotential(cityIndustryIndex, 0.45, cityLaborIndex, 0.35, cityInvestsIndex, 0.20);
+            double cityEconomicPotential = city.EconomicPotential(cityIndustryIndex, 0.45, cityLaborIndex, 0.35, cityInvestsIndex, 0.20);
+            city.OutputCityToFile(city, cityIndustryIndex, cityLaborIndex, cityInvestsIndex, cityEconomicPotential);
 
             country.MessageBeforeCalculationOfEcoPot();
-            country.EconomicPotential(countryIndustryIndex, 0.30, countryLaborIndex, 0.40, countryInvestsIndex, 0.30);
+            double countryEconomicPotential = country.EconomicPotential(countryIndustryIndex, 0.30, countryLaborIndex, 0.40, countryInvestsIndex, 0.30);
+            country.OutputCountryToFile(country, countryIndustryIndex, countryLaborIndex, countryInvestsIndex, countryEconomicPotential);
 
             Console.WriteLine();
         }

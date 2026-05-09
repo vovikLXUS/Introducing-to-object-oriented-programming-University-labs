@@ -1,0 +1,14 @@
+
++----------- Potential of Kyiv -----------+
+|Potential in industry: 0,865
+|Labor potential:       0,845
+|Investments potential: 0,920
+|Economic potential:    0,869
++-------------------------------------------+
+
++----------- Potential of Sofia Borshchagovka -----------+
+|Potential in industry: 0,300
+|Labor potential:       0,610
+|Investments potential: 0,583
+|Economic potential:    0,509
++-------------------------------------------+

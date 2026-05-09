@@ -1,0 +1,15 @@
+E:\ItOOP_Labs\ConsoleLab6\ConsoleLab6\bin\Debug\net10.0\ConsoleLab6.exe
+E:\ItOOP_Labs\ConsoleLab6\ConsoleLab6\bin\Debug\net10.0\ConsoleLab6.deps.json
+E:\ItOOP_Labs\ConsoleLab6\ConsoleLab6\bin\Debug\net10.0\ConsoleLab6.runtimeconfig.json
+E:\ItOOP_Labs\ConsoleLab6\ConsoleLab6\bin\Debug\net10.0\ConsoleLab6.dll
+E:\ItOOP_Labs\ConsoleLab6\ConsoleLab6\bin\Debug\net10.0\ConsoleLab6.pdb
+E:\ItOOP_Labs\ConsoleLab6\ConsoleLab6\obj\Debug\net10.0\ConsoleLab6.GeneratedMSBuildEditorConfig.editorconfig
+E:\ItOOP_Labs\ConsoleLab6\ConsoleLab6\obj\Debug\net10.0\ConsoleLab6.AssemblyInfoInputs.cache
+E:\ItOOP_Labs\ConsoleLab6\ConsoleLab6\obj\Debug\net10.0\ConsoleLab6.AssemblyInfo.cs
+E:\ItOOP_Labs\ConsoleLab6\ConsoleLab6\obj\Debug\net10.0\ConsoleLab6.csproj.CoreCompileInputs.cache
+E:\ItOOP_Labs\ConsoleLab6\ConsoleLab6\obj\Debug\net10.0\ConsoleLab6.sourcelink.json
+E:\ItOOP_Labs\ConsoleLab6\ConsoleLab6\obj\Debug\net10.0\ConsoleLab6.dll
+E:\ItOOP_Labs\ConsoleLab6\ConsoleLab6\obj\Debug\net10.0\refint\ConsoleLab6.dll
+E:\ItOOP_Labs\ConsoleLab6\ConsoleLab6\obj\Debug\net10.0\ConsoleLab6.pdb
+E:\ItOOP_Labs\ConsoleLab6\ConsoleLab6\obj\Debug\net10.0\ConsoleLab6.genruntimeconfig.cache
+E:\ItOOP_Labs\ConsoleLab6\ConsoleLab6\obj\Debug\net10.0\ref\ConsoleLab6.dll

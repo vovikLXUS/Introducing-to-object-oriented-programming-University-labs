@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ItOOP_Labs\\Console_Lab_4_version2\\Console_Lab_4_version2\\Console_Lab_4_version2.csproj": {}
+    "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version2\\Console_Lab_4_version2\\Console_Lab_4_version2.csproj": {}
   },
   "projects": {
-    "E:\\ItOOP_Labs\\Console_Lab_4_version2\\Console_Lab_4_version2\\Console_Lab_4_version2.csproj": {
+    "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version2\\Console_Lab_4_version2\\Console_Lab_4_version2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ItOOP_Labs\\Console_Lab_4_version2\\Console_Lab_4_version2\\Console_Lab_4_version2.csproj",
+        "projectUniqueName": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version2\\Console_Lab_4_version2\\Console_Lab_4_version2.csproj",
         "projectName": "Console_Lab_4_version2",
-        "projectPath": "E:\\ItOOP_Labs\\Console_Lab_4_version2\\Console_Lab_4_version2\\Console_Lab_4_version2.csproj",
+        "projectPath": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version2\\Console_Lab_4_version2\\Console_Lab_4_version2.csproj",
         "packagesPath": "C:\\Users\\Володя\\.nuget\\packages\\",
-        "outputPath": "E:\\ItOOP_Labs\\Console_Lab_4_version2\\Console_Lab_4_version2\\obj\\",
+        "outputPath": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version2\\Console_Lab_4_version2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Володя\\AppData\\Roaming\\NuGet\\NuGet.Config",

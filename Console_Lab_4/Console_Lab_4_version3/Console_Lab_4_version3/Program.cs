@@ -93,10 +93,12 @@ namespace Console_Lab_4_version_3
             // Опис формули розрахунку потенціалу та сам розрахунок економічного потенціалу
             city.TellAboutEconomicPotential();
             city.MessageBeforeCalcEcoPot();
-            city.EconomicPotential(cityIndustryIndex, 0.45, cityLaborIndex, 0.35, cityInvestsIndex, 0.20);
+            double cityEconomicPotential = city.EconomicPotential(cityIndustryIndex, 0.45, cityLaborIndex, 0.35, cityInvestsIndex, 0.20);
+            city.OutputCityToFile(city, cityIndustryIndex, cityLaborIndex, cityInvestsIndex, cityEconomicPotential);
 
             country.MessageBeforeCalcEcoPot();
-            country.EconomicPotential(countryIndustryIndex, 0.30, countryLaborIndex, 0.40, countryInvestsIndex, 0.30);
+            double countryEconomicPotential = country.EconomicPotential(countryIndustryIndex, 0.30, countryLaborIndex, 0.40, countryInvestsIndex, 0.30);
+            country.OutputCountryToFile(country, countryIndustryIndex, countryLaborIndex, countryInvestsIndex, countryEconomicPotential);
 
             Console.WriteLine();
         }

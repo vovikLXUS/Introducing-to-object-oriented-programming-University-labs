@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\ItOOP_Labs\\Console_Lab_4_version2\\",
+  "WorkspaceRootPath": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBB8545B-9A01-BB1E-876B-3EE5312291AE}|Console_Lab_4_version2\\Console_Lab_4_version2.csproj|e:\\itoop_labs\\console_lab_4_version2\\console_lab_4_version2\\labmodels\\iinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBB8545B-9A01-BB1E-876B-3EE5312291AE}|Console_Lab_4_version2\\Console_Lab_4_version2.csproj|solutionrelative:console_lab_4_version2\\labmodels\\iinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBB8545B-9A01-BB1E-876B-3EE5312291AE}|Console_Lab_4_version2\\Console_Lab_4_version2.csproj|e:\\itoop_labs\\console_lab_4_version2\\console_lab_4_version2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBB8545B-9A01-BB1E-876B-3EE5312291AE}|Console_Lab_4_version2\\Console_Lab_4_version2.csproj|e:\\itoop_labs\\console_lab_4\\console_lab_4_version2\\console_lab_4_version2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBB8545B-9A01-BB1E-876B-3EE5312291AE}|Console_Lab_4_version2\\Console_Lab_4_version2.csproj|solutionrelative:console_lab_4_version2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBB8545B-9A01-BB1E-876B-3EE5312291AE}|Console_Lab_4_version2\\Console_Lab_4_version2.csproj|e:\\itoop_labs\\console_lab_4_version2\\console_lab_4_version2\\labmodels\\locality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBB8545B-9A01-BB1E-876B-3EE5312291AE}|Console_Lab_4_version2\\Console_Lab_4_version2.csproj|e:\\itoop_labs\\console_lab_4\\console_lab_4_version2\\console_lab_4_version2\\labmodels\\ieconomicpotential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBB8545B-9A01-BB1E-876B-3EE5312291AE}|Console_Lab_4_version2\\Console_Lab_4_version2.csproj|solutionrelative:console_lab_4_version2\\labmodels\\ieconomicpotential.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBB8545B-9A01-BB1E-876B-3EE5312291AE}|Console_Lab_4_version2\\Console_Lab_4_version2.csproj|e:\\itoop_labs\\console_lab_4\\console_lab_4_version2\\console_lab_4_version2\\labmodels\\locality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBB8545B-9A01-BB1E-876B-3EE5312291AE}|Console_Lab_4_version2\\Console_Lab_4_version2.csproj|solutionrelative:console_lab_4_version2\\labmodels\\locality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBB8545B-9A01-BB1E-876B-3EE5312291AE}|Console_Lab_4_version2\\Console_Lab_4_version2.csproj|e:\\itoop_labs\\console_lab_4_version2\\console_lab_4_version2\\labmodels\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBB8545B-9A01-BB1E-876B-3EE5312291AE}|Console_Lab_4_version2\\Console_Lab_4_version2.csproj|e:\\itoop_labs\\console_lab_4\\console_lab_4_version2\\console_lab_4_version2\\labmodels\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBB8545B-9A01-BB1E-876B-3EE5312291AE}|Console_Lab_4_version2\\Console_Lab_4_version2.csproj|solutionrelative:console_lab_4_version2\\labmodels\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBB8545B-9A01-BB1E-876B-3EE5312291AE}|Console_Lab_4_version2\\Console_Lab_4_version2.csproj|e:\\itoop_labs\\console_lab_4_version2\\console_lab_4_version2\\labmodels\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBB8545B-9A01-BB1E-876B-3EE5312291AE}|Console_Lab_4_version2\\Console_Lab_4_version2.csproj|e:\\itoop_labs\\console_lab_4\\console_lab_4_version2\\console_lab_4_version2\\labmodels\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBB8545B-9A01-BB1E-876B-3EE5312291AE}|Console_Lab_4_version2\\Console_Lab_4_version2.csproj|solutionrelative:console_lab_4_version2\\labmodels\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,26 +38,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IInterface.cs",
-              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_4_version2\\Console_Lab_4_version2\\labModels\\IInterface.cs",
-              "RelativeDocumentMoniker": "Console_Lab_4_version2\\labModels\\IInterface.cs",
-              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_4_version2\\Console_Lab_4_version2\\labModels\\IInterface.cs",
-              "RelativeToolTip": "Console_Lab_4_version2\\labModels\\IInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IEconomicPotential.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version2\\Console_Lab_4_version2\\labModels\\IEconomicPotential.cs",
+              "RelativeDocumentMoniker": "Console_Lab_4_version2\\labModels\\IEconomicPotential.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version2\\Console_Lab_4_version2\\labModels\\IEconomicPotential.cs",
+              "RelativeToolTip": "Console_Lab_4_version2\\labModels\\IEconomicPotential.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T13:54:49.626Z",
+              "WhenOpened": "2026-03-14T14:27:41.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Locality.cs",
-              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_4_version2\\Console_Lab_4_version2\\labModels\\Locality.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version2\\Console_Lab_4_version2\\labModels\\Locality.cs",
               "RelativeDocumentMoniker": "Console_Lab_4_version2\\labModels\\Locality.cs",
-              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_4_version2\\Console_Lab_4_version2\\labModels\\Locality.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version2\\Console_Lab_4_version2\\labModels\\Locality.cs",
               "RelativeToolTip": "Console_Lab_4_version2\\labModels\\Locality.cs",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAUwDwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T12:59:29.932Z",
               "EditorCaption": ""
@@ -66,37 +66,35 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "City.cs",
-              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_4_version2\\Console_Lab_4_version2\\labModels\\City.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version2\\Console_Lab_4_version2\\labModels\\City.cs",
               "RelativeDocumentMoniker": "Console_Lab_4_version2\\labModels\\City.cs",
-              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_4_version2\\Console_Lab_4_version2\\labModels\\City.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version2\\Console_Lab_4_version2\\labModels\\City.cs",
               "RelativeToolTip": "Console_Lab_4_version2\\labModels\\City.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAIwAQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T12:59:43.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-07T12:59:43.559Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Country.cs",
-              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_4_version2\\Console_Lab_4_version2\\labModels\\Country.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version2\\Console_Lab_4_version2\\labModels\\Country.cs",
               "RelativeDocumentMoniker": "Console_Lab_4_version2\\labModels\\Country.cs",
-              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_4_version2\\Console_Lab_4_version2\\labModels\\Country.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version2\\Console_Lab_4_version2\\labModels\\Country.cs",
               "RelativeToolTip": "Console_Lab_4_version2\\labModels\\Country.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAwwAgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T12:59:58.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-07T12:59:58.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_4_version2\\Console_Lab_4_version2\\Program.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version2\\Console_Lab_4_version2\\Program.cs",
               "RelativeDocumentMoniker": "Console_Lab_4_version2\\Program.cs",
-              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_4_version2\\Console_Lab_4_version2\\Program.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\Console_Lab_4\\Console_Lab_4_version2\\Console_Lab_4_version2\\Program.cs",
               "RelativeToolTip": "Console_Lab_4_version2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T12:58:53.629Z",
               "EditorCaption": ""

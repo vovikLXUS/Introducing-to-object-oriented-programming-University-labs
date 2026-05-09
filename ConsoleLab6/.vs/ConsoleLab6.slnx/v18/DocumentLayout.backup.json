@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ItOOP_Labs\\ConsoleLab6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|e:\\itoop_labs\\consolelab6\\consolelab6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|solutionrelative:consolelab6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|e:\\itoop_labs\\consolelab6\\consolelab6\\models\\core\\flyingchair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|solutionrelative:consolelab6\\models\\core\\flyingchair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|e:\\itoop_labs\\consolelab6\\consolelab6\\models\\core\\transformercar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|solutionrelative:consolelab6\\models\\core\\transformercar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|e:\\itoop_labs\\consolelab6\\consolelab6\\models\\events\\carevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|solutionrelative:consolelab6\\models\\events\\carevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|e:\\itoop_labs\\consolelab6\\consolelab6\\models\\parts\\chassis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|solutionrelative:consolelab6\\models\\parts\\chassis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|e:\\itoop_labs\\consolelab6\\consolelab6\\models\\parts\\transformsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|solutionrelative:consolelab6\\models\\parts\\transformsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|e:\\itoop_labs\\consolelab6\\consolelab6\\models\\parts\\smartsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|solutionrelative:consolelab6\\models\\parts\\smartsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|e:\\itoop_labs\\consolelab6\\consolelab6\\models\\parts\\brakesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|solutionrelative:consolelab6\\models\\parts\\brakesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|e:\\itoop_labs\\consolelab6\\consolelab6\\models\\parts\\transmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|solutionrelative:consolelab6\\models\\parts\\transmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|e:\\itoop_labs\\consolelab6\\consolelab6\\models\\parts\\steeringsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|solutionrelative:consolelab6\\models\\parts\\steeringsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|e:\\itoop_labs\\consolelab6\\consolelab6\\models\\parts\\runninggear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|solutionrelative:consolelab6\\models\\parts\\runninggear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|e:\\itoop_labs\\consolelab6\\consolelab6\\models\\parts\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|solutionrelative:consolelab6\\models\\parts\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|e:\\itoop_labs\\consolelab6\\consolelab6\\models\\exceptions\\devicefailureexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|solutionrelative:consolelab6\\models\\exceptions\\devicefailureexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|e:\\itoop_labs\\consolelab6\\consolelab6\\models\\parts\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|solutionrelative:consolelab6\\models\\parts\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|e:\\itoop_labs\\consolelab6\\consolelab6\\models\\core\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348323C5-A65B-4F28-B53E-7D73A1412A7D}|ConsoleLab6\\ConsoleLab6.csproj|solutionrelative:consolelab6\\models\\core\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DeviceFailureException.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Exceptions\\DeviceFailureException.cs",
+              "RelativeDocumentMoniker": "ConsoleLab6\\models\\Exceptions\\DeviceFailureException.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Exceptions\\DeviceFailureException.cs",
+              "RelativeToolTip": "ConsoleLab6\\models\\Exceptions\\DeviceFailureException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:27:43.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarEvents.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Events\\CarEvents.cs",
+              "RelativeDocumentMoniker": "ConsoleLab6\\models\\Events\\CarEvents.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Events\\CarEvents.cs",
+              "RelativeToolTip": "ConsoleLab6\\models\\Events\\CarEvents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:27:31.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TransformSystem.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\TransformSystem.cs",
+              "RelativeDocumentMoniker": "ConsoleLab6\\models\\Parts\\TransformSystem.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\TransformSystem.cs",
+              "RelativeToolTip": "ConsoleLab6\\models\\Parts\\TransformSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:27:19.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SmartSystem.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\SmartSystem.cs",
+              "RelativeDocumentMoniker": "ConsoleLab6\\models\\Parts\\SmartSystem.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\SmartSystem.cs",
+              "RelativeToolTip": "ConsoleLab6\\models\\Parts\\SmartSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:27:08.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BrakeSystem.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\BrakeSystem.cs",
+              "RelativeDocumentMoniker": "ConsoleLab6\\models\\Parts\\BrakeSystem.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\BrakeSystem.cs",
+              "RelativeToolTip": "ConsoleLab6\\models\\Parts\\BrakeSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:27:00.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Transmission.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\Transmission.cs",
+              "RelativeDocumentMoniker": "ConsoleLab6\\models\\Parts\\Transmission.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\Transmission.cs",
+              "RelativeToolTip": "ConsoleLab6\\models\\Parts\\Transmission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:26:51.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SteeringSystem.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\SteeringSystem.cs",
+              "RelativeDocumentMoniker": "ConsoleLab6\\models\\Parts\\SteeringSystem.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\SteeringSystem.cs",
+              "RelativeToolTip": "ConsoleLab6\\models\\Parts\\SteeringSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:26:42.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RunningGear.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\RunningGear.cs",
+              "RelativeDocumentMoniker": "ConsoleLab6\\models\\Parts\\RunningGear.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\RunningGear.cs",
+              "RelativeToolTip": "ConsoleLab6\\models\\Parts\\RunningGear.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:26:26.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Chassis.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\Chassis.cs",
+              "RelativeDocumentMoniker": "ConsoleLab6\\models\\Parts\\Chassis.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\Chassis.cs",
+              "RelativeToolTip": "ConsoleLab6\\models\\Parts\\Chassis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:26:16.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Engine.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\Engine.cs",
+              "RelativeDocumentMoniker": "ConsoleLab6\\models\\Parts\\Engine.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\Engine.cs",
+              "RelativeToolTip": "ConsoleLab6\\models\\Parts\\Engine.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:26:07.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Body.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\Body.cs",
+              "RelativeDocumentMoniker": "ConsoleLab6\\models\\Parts\\Body.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Parts\\Body.cs",
+              "RelativeToolTip": "ConsoleLab6\\models\\Parts\\Body.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:19:00.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Person.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Core\\Person.cs",
+              "RelativeDocumentMoniker": "ConsoleLab6\\models\\Core\\Person.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Core\\Person.cs",
+              "RelativeToolTip": "ConsoleLab6\\models\\Core\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:18:25.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FlyingChair.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Core\\FlyingChair.cs",
+              "RelativeDocumentMoniker": "ConsoleLab6\\models\\Core\\FlyingChair.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Core\\FlyingChair.cs",
+              "RelativeToolTip": "ConsoleLab6\\models\\Core\\FlyingChair.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:18:17.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransformerCar.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Core\\TransformerCar.cs",
+              "RelativeDocumentMoniker": "ConsoleLab6\\models\\Core\\TransformerCar.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\models\\Core\\TransformerCar.cs",
+              "RelativeToolTip": "ConsoleLab6\\models\\Core\\TransformerCar.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAkwFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:18:07.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleLab6\\Program.cs",
+              "ToolTip": "E:\\ItOOP_Labs\\ConsoleLab6\\ConsoleLab6\\Program.cs*",
+              "RelativeToolTip": "ConsoleLab6\\Program.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T08:16:53.01Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

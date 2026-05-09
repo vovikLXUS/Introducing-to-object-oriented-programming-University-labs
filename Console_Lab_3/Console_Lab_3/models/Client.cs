@@ -78,7 +78,11 @@ namespace Console_Lab_3.models
                 balance = value;
             }
         }
-        public bool IsBlocked { get; set; } = false; // Властивість для блокування картки
+        public bool IsBlocked 
+        { 
+            get; 
+            set; 
+        } = false; // Властивість для блокування картки
         // Конструктор класу без параметрів, який ініціалізує поля значеннями за замовчуванням
         public Client()
         {
@@ -86,7 +90,7 @@ namespace Console_Lab_3.models
             lastName = "";
             pinCode = "";
             cardNumber = 0;
-            validityPeriod = new int[2];
+            validityPeriod = new int[0];
             balance = 0;
         }
         // Конструктор класу з параметрами для ініціалізації полів значеннями, переданими при створенні об'єкта

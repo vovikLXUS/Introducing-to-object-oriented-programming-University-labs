@@ -56,6 +56,15 @@ namespace Console_Lab_4.labModels
 
             PrintPartialInfo(); // = base.PrintPartialInfo();
         }
+        //public void PrintHeaderInFile()
+        //{
+        //    string filePath = "Calculations.txt";
+
+        //    using (StreamWriter sw = new StreamWriter(filePath, true))
+        //    {
+        //        Console.Write($"\n+----------- Potential of {Name} -----------+");
+        //    }
+        //}
         public void MessageBeforeCalculationOfIncrease()
         {
             Console.Write($"+----- Increase in industrial income of the {Name} -----+");

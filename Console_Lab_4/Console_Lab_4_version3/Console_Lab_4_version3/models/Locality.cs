@@ -60,6 +60,38 @@ namespace Console_Lab_4_version3.models
                 + $"|Size of territory:     {SizeOfTerritory} km in square\n"
                 + "+------------------------------------------------------------------+\n");
         }
+        public void OutputCityToFile(City city,
+            double absoluteIncrease, double laborPotential,
+            double investsPotential, double wholeEconomicPotential)
+        {
+            string filePath = "Calculations.txt";
+
+            using (StreamWriter sw = new StreamWriter(filePath, true))
+            {
+                sw.Write($"\n+----------- Potential of {city.Name} -----------+"
+                    + $"\n|Potential in industry: {absoluteIncrease:F2}"
+                    + $"\n|Labor potential:       {laborPotential:F2}"
+                    + $"\n|Investments potential: {investsPotential:F2}"
+                    + $"\n|Economic potential:    {wholeEconomicPotential:F2}"
+                    + "\n+-------------------------------------------+\n");
+            }
+        }
+        public void OutputCountryToFile(Country country,
+            double absoluteIncrease, double laborPotential,
+            double investsPotential, double wholeEconomicPotential)
+        {
+            string filePath = "Calculations.txt";
+
+            using (StreamWriter sw = new StreamWriter(filePath, true))
+            {
+                sw.Write($"\n+----------- Potential of {country.Name} -----------+"
+                    + $"\n|Potential in industry: {absoluteIncrease:F2}"
+                    + $"\n|Labor potential:       {laborPotential:F2}"
+                    + $"\n|Investments potential: {investsPotential:F2}"
+                    + $"\n|Economic potential:    {wholeEconomicPotential:F2}"
+                    + "\n+-------------------------------------------+\n");
+            }
+        }
         public void TellAboutIndustrialIncome()
         {
             Console.Write("\n+----------------------- Potential in industry ----------------------+"
